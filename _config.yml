@@ -39,6 +39,13 @@ social:
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
+  - icon:	linkedin
+    url:	http://ca.linkedin.com/in/allanmacgregor
+    desc:	Add me on Linkedin
+    share_url:
+    share_title:
+    share_link:
+
   - icon:	github
     url:	https://github.com/amacgregor
     desc:	Fork me on github
@@ -46,9 +53,9 @@ social:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+ - icon:	google-plus
+   url:	https://plus.google.com/+AllanMacGregor?rel=author
+   desc:	Add me on google+
+   share_url:
+   share_title:
+   share_link:
