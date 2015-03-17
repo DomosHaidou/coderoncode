@@ -1,25 +1,54 @@
-# Site Settings
-baseurl: 		""
-title: 		CoderOnCode
+# Build settings
+markdown: redcarpet
+highlighter: pygments
 
-name: 			Coder<strong>On</strong>Code
-description: Random ramblings about code, programming, and technology
-url: 			"http://coderoncode.com"
+# Site settings
+title: "CoderOnCode"
+description: > # this means to ignore newlines until "email:"
+   Random ramblings about code, programming, and technology
 
-paginate: 		10
-paginate_path: 	"blog/page:num"
-destination: 	/srv/www/coderoncode.com/public_html
-excerpt_separator: "-=excerpt=-"
-post_ext: md
+email: info@allanmacgregor.com
+#blog logo
+#logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/cc_logo.png"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
+name: 'Allan MacGregor'
+author: 'Allan MacGregor'
+author_image: "https://en.gravatar.com/userimage/14757184/46569f43320e7cb0c27093cd8db4a179.png?size=200"
 
-twitter: 		allanmacgregor
-email: 			dev@allanmacgregor.com
+paginate:	5
 
-disqus: 		codercode
-analytics: 		UA-28450068-1
+url: "http://coderoncode.com/" # the base hostname & protocol for your site
+baseurl: ""
 
-copyright: 		Copyright 2014-2015 CoderOnCode.com
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/allanmacgregor
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
 
-# Build Settings
-permalinks: 	pretty
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/amacgregor
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
