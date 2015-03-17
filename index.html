@@ -1,0 +1,28 @@
+---
+
+layout:     default
+title:      Design Patterns in PHP Using Factories
+type:       home
+navigation: true
+
+date:       2014-05-08
+image:      header-2.jpg
+excerpt:    The factory pattern is a class that has some methods that create objects for you. Instead of using new directly, you use the factory class to create objects. That way, if you want to change the types of objects created, you can change just the factory. All the code that uses the factory changes automatically. <a href="/2014/01/19/design-patterns-php-factories.html" title="Continue" class="more">Continue</a>
+gradient:   3
+
+---
+
+<!-- <div class="summary">
+
+  <p>Well, I guess it's quite obvious that I really enjoy working with Jekyll — <b>with good reasons</b> — so let me just briefly suggest some of the benefits of using a static site generator in favor of a heavy dynamic, database driven content management system. <a href="/why-jekyll.html" title="Continue" class="more">Continue</a></p>
+
+</div>
+
+<h2>Guides</h2>
+<p>Please follow these guides in order to get a good impression about the themes functionality and how it works.</p>
+ -->
+{% for post in paginator.posts %}
+
+  {% include summary.html %}
+  
+{% endfor %}

@@ -1,0 +1,30 @@
+{% include header.html %}
+
+{% if page.gradient and page.gradient > 0 and page.gradient < 6 %}
+	{% assign gradient = page.gradient %}
+{% else %}
+	{% assign gradient = 1 %}
+{% endif %}
+
+<section class="content">
+	<article>
+		<header class="short-title gradient-{{ gradient }}" data-animation="fadeInDownBig">
+      <div class="excerpt">
+        <h1>{{ page.title }}</h1>
+      </div>
+		</header>
+
+		<div class="body" data-animation="fadeInUp">
+			{{ content | replace:'-=excerpt=-','' }}
+		</div>
+
+		<footer>
+			{% include meta.html %}
+			{% include comments.html %}
+			{% include pagination.html %}
+		</footer>
+	</article>
+</section>
+
+{% include teaser.html %}
+{% include footer.html %}
