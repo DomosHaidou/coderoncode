@@ -20,7 +20,7 @@ tag: article
 
 I recently bought a [Fitbit Flex](http://www.fitbit.com/flex), the **Flex** is a fitness tracker wristband, very similar to the Jawbone UP or the Nike Fuel band. However I have found the Flex to be extremely comfortable to use, accurate and very useful for keeping track of my daily fitness and health.
 
--=excerpt=-
+
 
 But why go through all the trouble of tracking my meals, and wearing a __fitness tracker 24/7__; well the reason is very simple I want to improve my general health and become a more effective person. 
 

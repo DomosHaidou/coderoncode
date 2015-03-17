@@ -26,7 +26,7 @@ For the last couple of months I been working with Laravel and learning a lot, he
 - [Laravel: From Apprentice To Artisan](https://leanpub.com/laravel)
 - [Laravel 4 Cookbook](https://leanpub.com/laravel4cookbook)
 
--=excerpt=-
+
 
 
 ## Blogs

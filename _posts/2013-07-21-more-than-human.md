@@ -20,7 +20,7 @@ tag: article
 
 In the last couple years, we have seen the emergence of new and exciting technologies aimed towards closing the gap between man and machine; projects like Google glass, scanadu the real life 'tricorder' and the myriad of fitness bands are only a few examples of how not only technology has become part of daily lives but is slowly becoming part of what we are and how we define our identity.
 
--=excerpt=-
+
 
 >Transhumanism is an international intellectual and cultural movement supporting the use 
 >of science and technology to improve the human condition... 

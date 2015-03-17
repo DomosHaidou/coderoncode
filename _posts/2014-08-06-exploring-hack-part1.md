@@ -23,7 +23,7 @@ As a full-time **Magento Developer** I deal with a very specific kind of **PHP**
 new technologies or programming concepts. One of the new languages that keeps grabbing my attention is **HACK**, which is almost identical to **PHP** in
 terms of syntax but at the same time implements some of the more attractive features from statically typed languages.
 
--=excerpt=-
+
 
 > **Hack** is a language for HHVM that interopates seamlessly with **PHP**. The barrier to entry for Hack is low. To get started, all that is needed is to
 > generally understand the features that **Hack** provides and how to call the Hack type checker (hh_client invokes the type checker at the command line)

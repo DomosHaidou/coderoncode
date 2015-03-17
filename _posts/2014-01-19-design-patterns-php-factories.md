@@ -20,7 +20,7 @@ tag: article
 
 The factory pattern is one of the most commonly used Design Patterns, it is useful when we need to choose between several interchangeable classes at runtime. By using factories we are also separating the creation of an object from the actual implementation.
 
--=excerpt=-
+
 
 We can define a factory as a simple design pattern that give us a convenient way to instantiate objects. A factory is capable of creating different types of objects without necessarily knowing what type of object is actually being created.
 

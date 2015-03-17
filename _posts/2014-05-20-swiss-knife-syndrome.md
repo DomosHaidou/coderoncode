@@ -25,7 +25,7 @@ tag: article
 
 I apologize beforehand if this article is more of a **rant** than usual. The inspiration for the **"Swiss Army Knife Syndrome"** came from my frustration in dealing with project managers, clients, and even other developers, that think in too much of a narrow, particular way. I call it the "Swiss Army Knife Syndrome".
 
--=excerpt=-
+
 
 
 ## The Swiss Army Knife

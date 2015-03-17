@@ -20,7 +20,7 @@ tag: article
 Welcome to the  information age where everything is connected, everything is in the cloud and where rivers of information flow directly to your screen. 
 If you ever felt like you where drowning in information you are not alone, we consume information -- or at least try to -- from dozens or even hundreds of different channels.
 
--=excerpt=-
+
 
 As we move forward in the Age of Information we only increase the different sources of information that are available to us, yet it seems our data management and consumption skills remain surprisingly the same.
 

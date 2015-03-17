@@ -22,7 +22,7 @@ tag: article
 > 
 > **en.wikipedia.org/wiki/transhumanism**
 
--=excerpt=-
+
 
 
 <br/>

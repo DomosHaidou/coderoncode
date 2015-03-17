@@ -27,7 +27,7 @@ If you have been hanging around in HackerNews for the last few months chances ar
 - Disrupt Sleep
 - Disrupt yourself 
 
--=excerpt=-
+
 
 and even
 - Indian Inventor Disrupts The Period Industry 

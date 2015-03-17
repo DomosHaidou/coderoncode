@@ -20,7 +20,7 @@ tag: article
 
 This past weekend the Magento Community hosted the first Magento Online Hackathon, here is a quick recap of my experience.
 
--=excerpt=-
+
 
 
 ## The Community 

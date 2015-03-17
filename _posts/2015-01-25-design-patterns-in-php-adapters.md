@@ -24,7 +24,7 @@ tag: article
 
 The **adapter pattern** also referred as the wrapper pattern, I find that wrapper is a more fitting name since it describes clearly what this pattern does; it encapsulates the functionality of a class or object into a class with a common public interfaces. 
 
--=excerpt=-
+
 
 > In software engineering, the adapter pattern is a software design pattern that allows the interface of an existing class to be used for another interface.[1] It is often used to make existing classes work with others without modifying their source code.
 

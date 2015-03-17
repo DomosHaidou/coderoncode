@@ -20,7 +20,7 @@ tag: article
 
 > HHVM (HipHop Virtual Machine) converts PHP code into a high-level bytecode (commonly known as an intermediate language). This bytecode is then translated into x64 machine code dynamically at runtime by a just-in-time (JIT) compiler. In these respects, HHVM has similarities to virtual machines for other languages including C#/CLR and Java/JVM.
 
--=excerpt=-
+
 
 
 ## A little big of history

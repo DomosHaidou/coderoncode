@@ -20,7 +20,7 @@ tag: article
 
 If you have been working with **PHP** for a while, chances are that you have come across with a project, extension or script that requires to be tested on multiple **PHP** versions, for simple CLI scripts this seems easy enough but what happens when you are working with complex applications, developing for frameworks or multiple versions of them ?
 
--=excerpt=-
+
 
 Let's say that like me, a **Magento developer** that regularly develops extensions, there is a need to run on multiple versions of **Magento**. The initial approach that most developers take is to create a virtual machine with the right environment. For an application like Magento that means you need two virtual machines one for PHP5.2 and one for **PHP5.3**.
 

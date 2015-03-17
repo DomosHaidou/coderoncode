@@ -22,7 +22,7 @@ tag: video
 What to watch this week, **Solomon Hykes** explains the docker platform and how it can help developers to build and deploy apps more easily. Great for
 those that want to understand more about the docker platform.
 
--=excerpt=-
+
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.
 

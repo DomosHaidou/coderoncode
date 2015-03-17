@@ -19,7 +19,7 @@ tag: article
 One of the most underestimated skills that a developer can have is the ability to make well documented, clean commits.
 Writing good commits can save everyone involved in project tremendous amounts of time, money and effort.
 
--=excerpt=-
+
 
 Other developers can quickly see what changes you made and why, and is extremely useful when tracking down when bugs where introduced.
 

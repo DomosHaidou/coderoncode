@@ -23,7 +23,7 @@ tag: article
 - [An Introduction to HHVM](http://coderoncode.com/2013/07/24/introduction-hhvm.html)
 - [First steps on HHVM](http://coderoncode.com/2013/07/24/introduction-hhvm.html)
 
--=excerpt=-
+
 
 
 ## Why Should I Care?

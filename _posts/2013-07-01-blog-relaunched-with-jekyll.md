@@ -25,7 +25,7 @@ From each of these attempts I have learned valueable lessons, so far I have spen
 than actually writing; so if I'm to succeed this time I need a blogging platform that actually lets me write and doesn't get 
 in the way.
 
--=excerpt=-
+
 
 ## Meet Jekyll
 

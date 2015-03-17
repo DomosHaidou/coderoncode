@@ -23,7 +23,7 @@ Among the new features and fixes that come with **PHP5.4** we have the addition 
 
 Languages like **C++** or **Python** manage this problem by allowing inheritance from multiple classes, Ruby in the other hand uses **Mixins** to address this issue. Regardless of the technique the problem remains the same; Traits are another approach to this problem and are commonly used in the languages like **Perl** and **Scala**.
 
--=excerpt=-
+
 
 Although PHP5.4(and Traits) has been around since early 2012, a lot of php developers might not be familiar with the concept and power behind Traits; In this article I want to explore traits, their usage, advantages and disadvantages.
 

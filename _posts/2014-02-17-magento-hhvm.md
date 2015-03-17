@@ -20,7 +20,7 @@ tag: article
 
 If you are developer or system administrator working with **Magento** running one or more medium sized stores, chances are that you are familiar with the many challenges of optimizing and scaling Magento.
 
--=excerpt=-
+
 
 **Magento** is (in)famous for its performance, specially when scaling to a large numbers products, transactions or even catalog rules, seasoned Magento developers have probably hit at least one of this performance bottle necks more than once.
 

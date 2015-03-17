@@ -22,7 +22,7 @@ tag: video
 What to watch this week, **Lauren Rother** from [PuppetLabs](http://puppetlabs.com/) give us their best practices to write best practices. A great set of recommendations for
 writing and mantaining your best practice documentation.
 
--=excerpt=-
+
 
 > Writing best practices documentation is definitely an art, but that doesn't mean a little science can't help us along. Through some trial and
 > error, I've uncovered some tenets of writing engaging, readable best practices docs. I'll walk through a bit of my path to discovery as I highlight

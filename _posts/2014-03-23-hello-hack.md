@@ -20,7 +20,7 @@ tag: article
 
 Recently Facebook unveiled **Hack**, a new programming language that aims to provide developers with the tools to write and ship code quickly while catching errors on the fly.
 
--=excerpt=-
+
 
 ## What is Hack?
 

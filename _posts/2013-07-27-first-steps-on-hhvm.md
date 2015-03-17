@@ -20,7 +20,7 @@ tag: article
 
 On a previous post [Introduction to HHVM](http://coderoncode.com/2013/07/24/introduction-hhvm.html) we went over [**HHVM**](http://www.hhvm.com/blog/)'s history and the potential of running our **PHP** applications on top of it. Currently a few applications are fully supported like wordpress and drupal; more complex applications like [**Magento**](http://www.magentocommerce.com/) are still not 100% with HHVM due to bugs in the HHVM implementation.
 
--=excerpt=-
+
 
  
 The first thing that we need to in order to start developing with HHVM is to setup a proper environment, for this case we are going to use a Vagrant Box.

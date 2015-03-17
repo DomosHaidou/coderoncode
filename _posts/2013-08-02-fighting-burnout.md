@@ -26,7 +26,7 @@ tag: article
 
 We all been there, feeling tired, bored and even sick of our work; burnout is very common in the tech industry, probably more common that most people want to realize.
 
--=excerpt=-
+
 
 
 There are countless posts, articles and even books that talk about preventing and/or dealing with burnout; exercise, meditation, changing jobs, go in on vacation, changing your diet or taking a bunch of pills (vitamins). All of those have been suggested by the internet gurus, web doctors and startup celebrities.

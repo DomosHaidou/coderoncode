@@ -29,7 +29,7 @@ The following list shows how developers are using HHVM in the real world in very
 - [Symfony benchmark using HHVM](http://www.alexfu.it/2013/10/22/symfony-benchmark-on-hhvm.html)
 - [Magento and HHVM](http://coderoncode.com/2014/02/17/magento-hhvm.html)
 
--=excerpt=-
+
 
 ## Additional Reading
 - [Speeding up PHP-based development with HHVM](https://www.facebook.com/notes/facebook-engineering/speeding-up-php-based-development-with-hiphop-vm/10151170460698920)

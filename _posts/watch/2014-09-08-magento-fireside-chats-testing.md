@@ -22,7 +22,7 @@ tag: video
 What to watch this week, the **Magento Fireside Chats** on testing. On this series of hangouts Magento developers come together to discuss their
 different approaches to testing, covering a variety of tools like **Selenium, PHPUnit, PHPSpec, Menta** and more.
 
--=excerpt=-
+
 
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/videoseries?list=PLTmla7LfXY9EmhsA9P955giIvlFzCetjb" frameborder="0"
 allowfullscreen></iframe>

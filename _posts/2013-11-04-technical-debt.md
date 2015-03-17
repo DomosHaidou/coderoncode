@@ -20,7 +20,7 @@ tag: article
 
 Technical Debt, chances are that you as developer have heard that term at least once before; but ask yourself do you really understand technical debt and when is appropriate to use it.
 
--=excerpt=-
+
 
 
 The term "technical debt" was first coined by Ward Cunningham who compared technical complexity and debt in a 1992 experience report:

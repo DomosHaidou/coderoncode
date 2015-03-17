@@ -20,7 +20,7 @@ tag: article
 
 REPL(read-eval-print loop) can be great tools for quickly testing concepts, experimenting and getting quick feedback when learning a new language. Many languages and frameworks provide some sort of REPL like the rails console or laravel's artisan tinker.
 
--=excerpt=-
+
 
 PHP by itself has the interactive shell that can be invoked with:
 

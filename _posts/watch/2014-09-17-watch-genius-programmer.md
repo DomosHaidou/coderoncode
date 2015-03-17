@@ -22,7 +22,7 @@ tag: video
 What to watch this week, In this week video **Brian Fitzpatrick** and **Ben Collins-sussman** talk about the pervasive myth of the uber-programmer the
 know it all genius; why everyone secretly wants to be considerad a genius and how this can affect the collaboration and behavior. 
 
--=excerpt=-
+
 
 > A pervasive elitism hovers in the background of collaborative software development: everyone secretly wants to be seen as a genius. In this talk,
 > we discuss how to avoid this trap and gracefully exchange personal ego for personal growth and super-charged collaboration. We'll also examine how

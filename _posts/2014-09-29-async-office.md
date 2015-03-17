@@ -21,7 +21,7 @@ tag: article
 
 The ['Async Software Development Manifesto'](http://asyncmanifesto.org/) has been making the rounds on sites like HackerNews and /r/programming; and while I don't agree entirely with all that is proposed, some of the points made by the author made so much sense that I felt motivated to break them down and make some contributions of my own.
 
--=excerpt=-
+
 
 ## Async Software Development Manifesto
 

@@ -21,7 +21,7 @@ tag: video
 
 What to watch this week,  Let's have a laugh watching **Wes Borg** and his fanstatic routine on the perils of tech support.
 
--=excerpt=-
+
 
 > This Is Why I never got into Tech Support.
 

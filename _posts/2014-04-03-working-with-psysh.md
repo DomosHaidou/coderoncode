@@ -22,7 +22,7 @@ I previously mentioned Boris, a terrific REPL for PHP, and while Boris is a grea
 
 **Psysh** is actually more than a simple REPL it's also an interactive debugger; which means you can say goodbye to the endless barrage of var_dump() and die() statements.
 
--=excerpt=-
+
 
 But do we really need another REPL for PHP, well honestly we could probably get by with the solutions currently available however **Psysh** has an extremely interesting Ace under the sleeve, it can also function as a realtime debugger.
 

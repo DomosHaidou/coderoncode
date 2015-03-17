@@ -19,7 +19,7 @@ tag: article
 
 **Dependency Injection** is a software design pattern that allows avoiding hard-coding dependencies and makes possible to change the dependencies both at runtime and compile time.
 
--=excerpt=-
+
 
 By using **Dependency Injection** we can write more maintainable, testable, and modular code. All projects have dependencies. The larger the project the more dependencies is it bound to have; now having a great number of dependencies is nothing bad by itself however how those dependencies are managed and maintained is.
 

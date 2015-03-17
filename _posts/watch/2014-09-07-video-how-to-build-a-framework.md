@@ -22,7 +22,7 @@ tag: video
 What to watch this week, an amazing talk by [Max Lynch](http://maxlynch.com/) from **Ionic**, where we recalls his experiences while creating the [Ionic framework](http://ionicframework.com/). Great Insights
 for anyone looking to start an open source project regardless if is a framework or not.
 
--=excerpt=-
+
 
 
 > Max Lynch presents at the 2014 Midwest Mobile Summit on how to build a successful open source framework.

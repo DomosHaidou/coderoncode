@@ -23,7 +23,7 @@ Docker has taken the DevOps community by storm and is rapidly changing the ecosy
 
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. 
 
--=excerpt=-
+
 
 And while Docker brings amazing things to the table in terms of application architecture, scalability and so on, in this post we are going to use docker to streamline the development pipeline.
 
