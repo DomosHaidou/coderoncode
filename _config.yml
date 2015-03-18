@@ -53,9 +53,9 @@ social:
     share_title:
     share_link:
 
- - icon:	google-plus
-   url:	https://plus.google.com/+AllanMacGregor?rel=author
-   desc:	Add me on google+
-   share_url:
-   share_title:
-   share_link:
+  - icon:	google-plus
+    url:	https://plus.google.com/+AllanMacGregor?rel=author
+    desc:	Add me on google+
+    share_url:
+    share_title:
+    share_link:
