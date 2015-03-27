@@ -4,33 +4,21 @@ title: "Building the MacxKit"
 published: true
 type: post
 
-keywords: 
+keywords:
 description:
-
-gradient: 		2
-
-author: 		Allan MacGregor
-bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
-twitter: 		"http://twitter.com/allanmacgregor"
-github: 		"http://github.com/amacgregor/"
-google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
-linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
-rss: 			"http://feeds.feedburner.com/CoderOnCode"
-tag: article
 ---
-	
-I've always been facinated with the technology concepts presented on **Charles Stross** book _Accelerando_, atificial cats, downloads of consciousness, nanotechnology, etc. but of all of them one got my particular attention; Manfred Marcx glasses. 
 
--=excerpt=-
+I've always been facinated with the technology concepts presented on **Charles Stross** book _Accelerando_, atificial cats, downloads of consciousness, nanotechnology, etc. but of all of them one got my particular attention; Manfred Marcx glasses.
+
 
 Glasses? What's so special about the glasses? Well this are not an ordinary pair of glasses, they are in fact augmented reality glasses, informing Manfred about recent news, results from search agents, phone calls, navigation instructions and what ever information he desires.
 
 Basically we could call them **smart glasses**, in the book this glasses allow Manfred to be on the bleeding age of technology and information; to the extreme without them he is incapable of functioning.
 
-> In Charles Stross’ Accelerando, the arrival of the technological singularity is prefaced in the first section of the novel with the story of Manfred Macx, a hyper-connected, post-economic entrepreneur who relies on reputation and good-will rather than traditional monetary wealth. 
+> In Charles Stross’ Accelerando, the arrival of the technological singularity is prefaced in the first section of the novel with the story of Manfred Macx, a hyper-connected, post-economic entrepreneur who relies on reputation and good-will rather than traditional monetary wealth.
 > **Source: [Post-human, post-memory: Mnemotechnology in Charles Stross' Accelerando](http://www.academia.edu/1247436/Post-human_post-memory_Mnemotechnology_in_Charles_Stross_Accelerando)**
 
-The attractive part here is not the augment reality glasses themselves but system that powers them, an exocortex. 
+The attractive part here is not the augment reality glasses themselves but system that powers them, an exocortex.
 
 > An EXOcortex can best be described as the portion of a trans- or posthuman entity's brain (or cortex) which exists outside of that entity's primary computing structure, usually the brain inhabiting a person's "meatbody." For example, a person's exocortex could very well be composed of all the external memory modules, processor, and devices that the person's biological brain interacts with on a realtime basis, thereby in effect making those external devices a functional part of the individual's "mind."
 
@@ -43,7 +31,7 @@ The first instinc for a project like this would be to go and develop a complex a
 
 **Could that work?** Will that architecture work or fail miserably due to:
 
-- network latency 
+- network latency
 - message formats
 - fault tolerance
 - deployment complexity
@@ -65,13 +53,13 @@ More interesting are the advantages of a distributed system like this, and the m
 
 Although even in a distributed service architecture there has to be a central point of orchestration, a system or process that is in charge of defining and running the tasks.
 
-# Option 1 
+# Option 1
 
 - Create a chain of events and services
 - Each service in the chain calls back to the next service in line
 - The task runner is only concerned about starting the chain of events
 
-# Option 2 
+# Option 2
 
 - Decoupled services
 - Central system implements adapter for each
@@ -87,7 +75,7 @@ An individual’s exocortex would be composed of external memory modules, proces
 
 In order to measure progress and success I need to define achievable goals first, in order to do that I have to narrow the scope and define what I want to gain from my "exocortex".
 
-Do I want ... 
+Do I want ...
 
 - Better memory and indexation
 - Help with data consumption
@@ -98,25 +86,25 @@ Well, yes to all the above; but which one(s) would help me the most right now? B
 
 Still, the scope seems to wide; we can narrow it further if we set an example use case.
 
-### Example 1 
+### Example 1
 
 ```
-EVERY [30min] 
-	GET [rss_feeds] OF [www.joelonsoftware.com,blog.cleancoder.com] 
+EVERY [30min]
+	GET [rss_feeds] OF [www.joelonsoftware.com,blog.cleancoder.com]
 		AND GET [subreddit] OF [programming,coding,php]
 		AND GET [hnews]
 THEN
 	DO [categorization] of {title}
 WHEN
-  {categories} HAVE_ONE_OF [tdd,bdd,agile] 
+  {categories} HAVE_ONE_OF [tdd,bdd,agile]
   POST_TO [Summarizer Queue]
 ```
 
-### Example 2 
+### Example 2
 
 ```
-EVERY [30 minutes] 
-	GET [RSS feeds] OF [www.joelonsoftware.com, blog.cleancoder.com] 
+EVERY [30 minutes]
+	GET [RSS feeds] OF [www.joelonsoftware.com, blog.cleancoder.com]
 		AND GET [Subreddit feeds] OF [programming, coding, php]
 		AND GET [HNews New]
 	THEN
@@ -124,14 +112,14 @@ EVERY [30 minutes]
 		DO [Classification] OF {title}
 WHEN
 	{score} GREATER THAN > [0.7]
-	POST TO [Direct Email] 
+	POST TO [Direct Email]
 WHEN
-  {categories} HAVE ONE OF [tdd,bdd,agile] 
+  {categories} HAVE ONE OF [tdd,bdd,agile]
   POST TO [Summarizer Queue]
 ```
 
 <!-- Should break into a second article at this point -->
- 
+
 ## Xcortex.io
 
 Xcortex.io is the public face of this project, it can take the form of a website or a mobile app.
@@ -142,7 +130,7 @@ In order to make progress with this project I need to make small, fast iteration
 
 **Objective:** Validate the concept of a micro-service architecture as a viable model instead of using a more traditional multi-agent model.
 
-- Generate a few mock microservices in php that return dummy data 
+- Generate a few mock microservices in php that return dummy data
 - Test the Chain of communitication
 - Test what happens if the chain of communication is broken, due to latency
 - Explore using a separate messaging layer, so the services don't communicate directly with each other.
@@ -150,4 +138,4 @@ In order to make progress with this project I need to make small, fast iteration
 ###### Scenario 1: Direct Service to Service communication
 
 
-###### Scenario 2: Messaging layer Service communication 
+###### Scenario 2: Messaging layer Service communication
