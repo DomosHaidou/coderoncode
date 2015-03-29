@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Triplecheck.io Update"
+title: "WTF is functional Programming (PHP Edition)"
 published: true
 type: post
 
