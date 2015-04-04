@@ -5,8 +5,8 @@ date: 2015-04-04T12:15:37-04:00
 published: true
 type: post
 
-keywords: 
-description:
+keywords: git, github, linux, tips, programming
+description: Useful collection of git tips and tricks
 ---
 	
 Recently I've been collecting a large collection of git shortcuts, tips and tricks. The following
