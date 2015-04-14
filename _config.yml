@@ -8,6 +8,7 @@ description: > # this means to ignore newlines until "email:"
    Random ramblings about code, programming, and technology
 
 email: info@allanmacgregor.com
+disqus: 'codercode'
 #blog logo
 #logo: "/assets/images/df_logo.jpg"
 logo: "/assets/images/cc_logo.png"
