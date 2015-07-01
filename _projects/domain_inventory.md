@@ -7,28 +7,28 @@ List of Domains and possible project ideas.
 # Tier 1
 Larger projects that involve more time, effort and initial investment but they have the highest potential for high revenue.
 
--leangrammar.com
+- leangrammar.com
 
 ## Tier 2
 Medium size projects with moderate level of effort to get off the ground and support, could potentially become Tier1.
 
--magetdd.com
--meethack.com
--learnhacklang.com
--designpatternsinphp.com
--magedevguide.com
+- magetdd.com
+- meethack.com
+- learnhacklang.com
+- designpatternsinphp.com
+- magedevguide.com
 
 # Tier 3
 Small projects, low maintenance, low effort and low revenue. 
 
--hhvmweekly.com
+- hhvmweekly.com
 
 # Personal
 Side Project that have now potential or need for generating revenue, read blog or celina's sites.
 
--allanmacgregor.com
--coderoncode.com
--demactesting.com
+- allanmacgregor.com
+- coderoncode.com
+- demactesting.com
 
 # Parked
 Pending domain idea.
