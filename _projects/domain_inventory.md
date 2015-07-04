@@ -64,4 +64,6 @@ Pending domain idea.
 - testing-is.sexy
 - themagentoguy.com
 - thephpcomedytour.com
+- nootropicsjournal.com
+- nootropiccentral.com
 
