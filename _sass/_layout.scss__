@@ -23,6 +23,14 @@
     }
 }
 
+.related-posts {
+    article { 
+        padding: 10px 0;
+        .post-title { font-size: 14px; }
+    }
+}
+    
+
 .site-nav {
     float: right;
     line-height: 56px;
