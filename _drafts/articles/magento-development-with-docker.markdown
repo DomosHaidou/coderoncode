@@ -9,3 +9,9 @@ type: post
 keywords: docker, magento, development
 description:
 ---
+
+<!--Notes:
+
+Illustrate the process of setting Magento environments with my docker base image.
+
+-->

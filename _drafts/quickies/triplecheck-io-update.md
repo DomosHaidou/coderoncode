@@ -7,3 +7,9 @@ type: post
 keywords:
 description:
 ---
+
+<!--Notes:
+
+To do on project relaunch
+
+-->
