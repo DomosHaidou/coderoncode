@@ -10,10 +10,6 @@ description: ""
 > real world definition for an adapter. The adapter design pattern is used when
 > you want two different classes with incompatible interfaces to work together.
 
-{% excerpt %}
-
-{% endexcerpt %}
-
 On the previous two posts we looked into Creational design patterns:
 
 - [PHP
@@ -22,10 +18,8 @@ On the previous two posts we looked into Creational design patterns:
   Singletons](http://coderoncode.com/2014/01/27/design-patterns-php-singletons.html)
 
 Recently I been working a lot with Magento on the workflow and techniques for my
-new book, [Test Driven Magento Extension
-Development](https://leanpub.com/tdd-magento-extension) in an effort to make
-Magento code more testable and less coupled I started looking into the use of
-adapters; so far with great results.
+new book, [Test Driven Magento Extension Development](https://leanpub.com/tdd-magento-extension) in an effort to make
+Magento code more testable and less coupled I started looking into the use of adapters; so far with great results.
 
 The Adapter pattern is a Structural pattern, structural Design Patterns are meant to  ease the design by identifying a simple way to manage relationships between entities.
 
