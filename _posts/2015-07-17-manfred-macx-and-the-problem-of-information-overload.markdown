@@ -1,18 +1,20 @@
 ---
 layout: post
-title: "Building the MacxKit"
+title: "Manfred Macx and the Problem of Information Overload"
 published: true
 type: post
 
 keywords: exocortex, information overload, microservices, technology, programming
 description:
+
+tag: article
 ---
 
 I've always been fascinated with the technology concepts presented on **Charles Stross** book _Accelerando_, artificial cats, downloads of consciousness, nanotechnology, etc. but of all of them one got my particular attention; Manfred Marcx glasses.
 
 Glasses? What's so special about the glasses? Well this are not an ordinary pair of glasses, they are in fact augmented reality glasses, informing Manfred about recent news, results from search agents, phone calls, navigation instructions and what ever information he desires.
 
-Basically we could call them **smart glasses**, in the book this glasses allow Manfred to be on the bleeding age of technology and information; to the extreme without them he is incapable of functioning.
+We could call them **smart glasses**, in the book this glasses allow Manfred to be on the bleeding age of technology and information; to the extreme without them he is incapable of functioning.
 
 > In Charles Stross’ Accelerando, the arrival of the technological singularity is prefaced in the first section of the novel with the story of Manfred Macx, a hyper-connected, post-economic entrepreneur who relies on reputation and good-will rather than traditional monetary wealth.
 > -- **Source: [Post-human, post-memory: Mnemotechnology in Charles Stross' Accelerando](http://www.academia.edu/1247436/Post-human_post-memory_Mnemotechnology_in_Charles_Stross_Accelerando)**
@@ -40,13 +42,13 @@ _**NOTE:** The system should not only help with data consumption and processing 
 
 > If we’re not doing something with the information we’re taking in, then we’re just pigs at the media trough.
 
-Here is where the challenge really comes in, I can build a system that feeds me information, sure. But can I build a system that, helps me to generate content faster and more efficiently.
+Here is where the challenge comes in, I can build a system that feeds me information, sure. But can I build a system that, helps me to generate content faster and more efficiently.
 
 >The metacortex is the Web — our growing global network of information, people, sensors, and computing devices.
 
 Also would that be considered an exocortex or more akin to a metacortex, all relevant questions but besides the point of an initial prototype implementation.
 
-More interesting are the advantages of a distributed system like this, and the mailability it could offer. A system that is comprised of microservices wouldn't care about the implementation of each individual service; as long as they respect the common contract for communication.
+More interesting are the advantages of a distributed system like this, and the mailability it could offer. A system that is comprised of microservices wouldn't care about the implementation of each service; as long as they respect the common contract for communication.
 
 >The Web is literally a new layer of the human brain that transcends any individual brain. It is a global brain that connects all our brains together. It is intelligent. It is perhaps humanity’s greatest invention.  It collectively senses, reacts, interprets, learns, thinks, and acts in ways that we as individuals can barely comprehend or predict, and this activity comprises an emerging global mind. -- **Source: [Nova Spivak](http://www.novaspivack.com/web-3-0/a-new-layer-of-the-brain-is-evolving-the-metacortex)**
 
@@ -72,14 +74,14 @@ An individual’s exocortex would be composed of external memory modules, proces
 
 ## Narrowing the Scope
 
-In order to measure progress and success I need to define achievable goals first, in order to do that I have to narrow the scope and define what I want to gain from my "exocortex".
+To measure progress and success, I need to define achievable goals first, in order to do that I have to narrow the scope and define what I want to gain from my "exocortex".
 
-Do I want ...
+***Do I want ...***
 
-- Better memory and indexation
-- Help with data consumption
-- Improve my content output
-- Automated tedious tasks
+- Better **memory** and indexation
+- Help with **data** consumption
+- Improve my content **output**
+- **Automated** tedious tasks
 
 Well, yes to all the above; but which one(s) would help me the most right now? Based on my current goals, and the current challenges I'm facing; data consumption and subsequently content output would be extremely handy.
 
@@ -118,30 +120,8 @@ WHEN
 ```
 
 
-## What next?
+## What's next?
 
-Sounds good so far, I been working on the architecture for this project for the last year or so, and already have a working prototype for data collection. Here is where the fun part begins, since I can collect reasonable amounts of data what should I do with them?
+Sounds good so far, I been working on the architecture for this project for the last year or so, and already have a working prototype for data collection. Here is where the fun part begins since I can collect reasonable amounts of data what should I do with them? 
 
 I'll go over the details of the data collection implementation on the next post.
-
-<!-- Should break into a second article at this point -->
-
-## Xcortex.io
-
-Xcortex.io is the public face of this project, it can take the form of a website or a mobile app.
-
-In order to make progress with this project I need to make small, fast iterations that validate or disprove the multiple concepts that this project assumes.
-
-#### Alpha-0.0.1
-
-**Objective:** Validate the concept of a micro-service architecture as a viable model instead of using a more traditional multi-agent model.
-
-- Generate a few mock microservices in php that return dummy data
-- Test the Chain of communitication
-- Test what happens if the chain of communication is broken, due to latency
-- Explore using a separate messaging layer, so the services don't communicate directly with each other.
-
-###### Scenario 1: Direct Service to Service communication
-
-
-###### Scenario 2: Messaging layer Service communication
