@@ -15,6 +15,12 @@ logo: "/assets/images/cc_logo.png"
 # blog cover
 cover: "/assets/images/header-compressor.jpg"
 
+# collection configuration
+collections:
+  - books
+  - projects
+
+
 name: 'Allan MacGregor'
 author: 'Allan MacGregor'
 author_image: "https://en.gravatar.com/userimage/14757184/46569f43320e7cb0c27093cd8db4a179.png?size=200"
