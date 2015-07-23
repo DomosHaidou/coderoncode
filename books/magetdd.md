@@ -85,7 +85,7 @@ The book is currently on **Early Access** mode, this means that if you buy it ri
 
 **Part 1** covers all the theory and history behind the tools and methodologies we will use for testing. It is critical that we understand how TDD/BDD involves more than blindly writing tests and is part of a complete workflow.
 
-**Part 2** we will get our hands dirty and build a payment extensions from scratch, we will put all the theory we learned on Part1 directly into practice, and on top of that we will have fun (I promise!).
+**Part 2** we will get our hands dirty and build a payment extension from scratch, we will put all the theory we learned on Part 1 directly into practice, and on top of that we will have fun (I promise!).
 
 {% endcontentfor %}
 
