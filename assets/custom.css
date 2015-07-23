@@ -1,0 +1,32 @@
+.content article .book-title {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+  color: #2c2c2c;
+  display: block;
+  font-size: 45px;
+  line-height: 1.1;
+  margin: 0 0; }
+.content article .book-title a {
+  text-decoration: none;
+  color: #333332; }
+.content article .book-title a:hover {
+  text-decoration: none; }
+
+
+main.book .post .post-content h2 {
+  padding-top:0;
+  margin-top: 0;
+}
+
+main.book .post .post-content p {
+  padding-bottom: 10px;
+}
+
+main.book .post .post-content ul {
+  padding-bottom: 15px;
+}
+
+main.book .post .post-content li {
+  margin-bottom: 0;
+}
