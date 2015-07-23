@@ -7,7 +7,7 @@ permalink: /books/magetdd.html
 {% contentfor description %}
 **Magento and Testing**, well those are two words that you don't hear together very often do you?
 
-That is the main motivation behind this book, is my attempt to **lower the barrier of entry** that a lot of developers experience when trying to build testable extensions.
+That is the main motivation behind this book, it is my attempt to **lower the barrier of entry** that a lot of developers experience when trying to build testable extensions.
 
 By buying the **early access** version, you will get the DRM free book in the following formats at an **introductory price**:
 
@@ -59,11 +59,11 @@ This book by no means should be the end of your testing journey, but just the be
 
 ### Why read this book?
 
-Testing is not a topic often discussed in the Magento community; and honestly is not surprising. Building proper tests for Magento extension can be difficult for seasoned veterans let's not say the junior developer just getting started with Magento.
+Testing it's not a topic often discussed in the Magento community; and honestly it is not surprising. Building proper tests for Magento extension can be difficult for seasoned veterans let's not say the junior developer just getting started with Magento.
 
 If you are anything like me you probably started thinking or still think that testing code is annoying, and a waste of time; after all you have written code like this a thousand times before, you know what you are doing right?
 
-And yet, how much time of your day to day do you spend tracking and fixing bugs? What if you could do something that gave you confidence, not only on the quality of the code that is being promoted, but confidence that if and when someone has to make changes to the code there are tests that can confirm that nothing has been broken and the application still performes as expected.
+And yet, how much time of your day to day do you spend tracking and fixing bugs? What if you could do something that gave you confidence, not only on the quality of the code that is being promoted, but confidence that if and when someone has to make changes to the code there are tests that can confirm that nothing has been broken and the application still performs as expected.
 
 <!-- So this books serves two purposes, the first is to give me an excuse to try out a more modern approach for Magento extension development and testing; the second one is to (hopefully) help out anyone looking to build Magento extensions using a more TDD oriented approach. -->
 <hr/>
