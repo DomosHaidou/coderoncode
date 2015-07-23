@@ -3,6 +3,8 @@ layout: page
 title: Books
 permalink: /books/
 ---
-# About
+# Published
 
-**TET**
+## [Test Driven Magento Extension Development](http://coderoncode.com/books/magetdd.html)
+
+Learn how to effectively build and test extensions using TDD/BDD and tools like **PHPspec**, **Behat** and **PHPUnit**.

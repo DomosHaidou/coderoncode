@@ -63,7 +63,7 @@ Testing is not a topic often discussed in the Magento community; and honestly is
 
 If you are anything like me you probably started thinking or still think that testing code is annoying, and a waste of time; after all you have written code like this a thousand times before, you know what you are doing right?
 
-And yet, how much time of your day to day is spend tracking and fixing bugs? What if you could do something that gave you confidence, not only on the quality of the code that is being promoted, but confidence that if and when someone has to make changes to the code there are tests that can confirm that nothing has been broken and the application still performes as expected.
+And yet, how much time of your day to day do you spend tracking and fixing bugs? What if you could do something that gave you confidence, not only on the quality of the code that is being promoted, but confidence that if and when someone has to make changes to the code there are tests that can confirm that nothing has been broken and the application still performes as expected.
 
 <!-- So this books serves two purposes, the first is to give me an excuse to try out a more modern approach for Magento extension development and testing; the second one is to (hopefully) help out anyone looking to build Magento extensions using a more TDD oriented approach. -->
 <hr/>
@@ -83,7 +83,7 @@ If I did my job right, by the end of the book you should have a clear understand
 
 The book is currently on **Early Access** mode, this means that if you buy it right now you will only get the first part of the book.
 
-**Part 1** covers all the theory and history behind the tools and methodologies we will use for testing. Is critical that we understand how TDD/BDD involves more than blindly writing tests and is part of a complete workflow.
+**Part 1** covers all the theory and history behind the tools and methodologies we will use for testing. It is critical that we understand how TDD/BDD involves more than blindly writing tests and is part of a complete workflow.
 
 **Part 2** we will get our hands dirty and build a payment extensions from scratch, we will put all the theory we learned on Part1 directly into practice, and on top of that we will have fun (I promise!).
 
