@@ -49,7 +49,7 @@ We will focus only on a few of the many tools available for Magento testing.
 <br/>
 ***A list of all the testing tools and frameworks***
 
-This book only focuses on a handful of tools and few specific approaches that in my opinion work the best. Be Pragmatic and use what works best for you.
+This book focuses on the best testing tools and frameworks. There are other ways to test Magento extensions, but this book will walk you through setting up a method that in my opinion works the best.
 
 <br/>
 ***A complete manual for all the tools listed***
