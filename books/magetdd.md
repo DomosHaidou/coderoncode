@@ -20,7 +20,7 @@ By buying the **early access** version, you will get the DRM free book in the fo
 {% endcontentfor %}
 
 {% contentfor preview %}
-<img src="/assets/book_images/magetdd_title.png" />
+<img src="/assets/book_images/magetdd_title_v2.png" />
 {% endcontentfor %}
 
 {% contentfor itis %}

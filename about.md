@@ -16,6 +16,7 @@ Released:
 
 <ul class="vertical">
 <li><a href="http://www.amazon.com/dp/1782163069/?tag=coderoncode"><img src="http://magedevguide.com/images/3060os_cover.png?1364947366"></a></li>
+<li><a href="http://http://coderoncode.com/books/magetdd.html"><img src="/assets/book_images/magetdd_title_v2.png"></a></li>
 </ul>
 
 
