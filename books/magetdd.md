@@ -16,7 +16,7 @@ By buying the **early access** version, you will get the DRM free book in the fo
 - Mobi
 
 <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gumroad.com/l/JUWgk?wanted=true">Start Testing Today</a>
+<a class="gumroad-button" href="https://gumroad.com/l/JUWgk?wanted=true">Buy</a>
 {% endcontentfor %}
 
 {% contentfor preview %}
