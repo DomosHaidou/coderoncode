@@ -3,21 +3,25 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-#About
-
 **Allan MacGregor** is a developer living and working in Toronto. Originally from Mexico, he freelanced his way through college before moving to Canada, in 2009. While he designed and developed dozens of projects with clients large and small, specializing in ecommerce websites; during that time he was one of the early adopters of **Magento**. In early 2010, he moved to Toronto to work at **Demac Media** as Magento Lead Developer.
 
 Since joining Demac, Allan has worked on numerous projects including Integrations with CanadaPost, Optimal Payments and, Masterpass, several internal tools, and dozens of Magento Stores.
 
 ##My Books
 
-Released:
+### Released:
 
-<ul class="vertical">
-<li><a href="http://www.amazon.com/dp/1782163069/?tag=coderoncode"><img src="http://magedevguide.com/images/3060os_cover.png?1364947366"></a></li>
-<li><a href="http://http://coderoncode.com/books/magetdd.html"><img width="170" src="/assets/book_images/magetdd_title_v2.png"></a></li>
-</ul>
+<div class="section group">
+  <div class="col span_3_of_12">
+    <a href="http://www.amazon.com/dp/1782163069/?tag=coderoncode"><img src="http://magedevguide.com/images/3060os_cover.png?1364947366"></a>  
+  </div>
+  <div class="col span_3_of_12">
+    <a href="http://coderoncode.com/books/magetdd.html"><img width="170" src="/assets/book_images/magetdd_title_v2.png"></a>
+  </div>
+  <div class="col span_6_of_12">
+  </div>
+</div>
+<hr/>
 
 
 #What I'm working on
