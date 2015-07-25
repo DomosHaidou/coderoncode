@@ -2,6 +2,10 @@
 layout: book
 title: Test Driven Magento Extension Development
 permalink: /books/magetdd.html
+
+keywords: magento, tdd, bdd, programming, testing, test driven development, magento testing
+description:Magento and Testing. Well, those are two words that you do not hear together very often, do you? That is the main motivation behind this book. My attempt to lower the barrier of entry that a lot of developers experience when trying to build testable extensions.
+
 ---
 
 {% contentfor description %}

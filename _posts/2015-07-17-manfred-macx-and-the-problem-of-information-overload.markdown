@@ -5,7 +5,8 @@ published: true
 type: post
 
 keywords: exocortex, information overload, microservices, technology, programming
-description:
+description: "I have always been fascinated with the technology concepts presented on Charles Stross book Accelerando, artificial cats, downloads of consciousness, nanotechnology, etc. but of all of them one got my particular attention; Manfred Marcx glasses."
+
 
 tag: article
 ---
@@ -122,6 +123,6 @@ WHEN
 
 ## What's next?
 
-Sounds good so far, I been working on the architecture for this project for the last year or so, and already have a working prototype for data collection. Here is where the fun part begins since I can collect reasonable amounts of data what should I do with them? 
+Sounds good so far, I been working on the architecture for this project for the last year or so, and already have a working prototype for data collection. Here is where the fun part begins since I can collect reasonable amounts of data what should I do with them?
 
 I'll go over the details of the data collection implementation on the next post.
