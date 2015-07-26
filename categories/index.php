@@ -50,13 +50,20 @@
       <h1>Category List:</h1>
 
       <?php
-        $dir    = '/';
-        $files1 = scandir($dir);
-        $files2 = scandir($dir, 1);
-
-        print_r($files1);
-        print_r($files2);
+        $dir    = '/srv/www/coderoncode.com/public_html/categories/';
+        $directoryList = scandir($dir);
       ?>
+    <?php foreach($directoryList as $category): ?>
+    	<?php if(is_dir($category) && !in_array($category, array('.','..'))): ?>
+    	   <article class="post">
+            <div class="article-item">
+              <header class="post-header">
+                <h2 class="post-title" itemprop="name"><a href="/categories/<?php echo $category ?>" itemprop="url"><?php echo strtoupper($category) ?></a></h2>
+              </header>
+            </div>
+          </article>
+    	<?php endif; ?>
+    <?php endforeach; ?>
     </main>
     <div class="bottom-closer">
       <div class="background-closer-image"  style="background-image: url(/assets/images/header-compressor.jpg)">
