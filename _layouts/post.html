@@ -62,14 +62,18 @@
             {% endfor %}
           </section>
           <section class="newsletter">
+            {% if page.convertkit_code %}
+            <script src="https://app.convertkit.com/landing_pages/{{ page.convertkit_code }}.js"></script>
+            {% else %}
             <script src="https://app.convertkit.com/landing_pages/2751.js"></script>
+            {% endif %}
           </section>
-	  <section class="comments">
-		{% include comments.html %}
-	  </section>
-	  <section class="related">
-		{% include related.html %}
-	  </section>
+      	  <section class="comments">
+      		  {% include comments.html %}
+      	  </section>
+      	  <section class="related">
+      		  {% include related.html %}
+      	  </section>
         </footer>
         <div class="bottom-teaser cf">
           <div class="isLeft">
