@@ -7,6 +7,7 @@ type: post
 keywords: phpfarm, multiple php versions, php, programming, environments
 description: "Learn how to use PHPFarm to create flexible development environments that can run multiple php versions side by side"
 gradient: 		2
+categories: php programming devops
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -16,7 +17,7 @@ google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
 linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
----	
+---
 
 If you have been working with **PHP** for a while, chances are that you have come across with a project, extension or script that requires to be tested on multiple **PHP** versions, for simple CLI scripts this seems easy enough but what happens when you are working with complex applications, developing for frameworks or multiple versions of them ?
 
@@ -40,7 +41,7 @@ Getting multiple **PHP** versions running side by side can be challenging and ov
 
 <!-- Brief history about PHPfarm -->
 
-The basic idea behind **PHPFarm** is that we can install several version of PHP side by side, in addition we can select one as current or reference specific version directly. Another extremely nice feature about **PHPFarm** is that we can run patch versions side by side. 
+The basic idea behind **PHPFarm** is that we can install several version of PHP side by side, in addition we can select one as current or reference specific version directly. Another extremely nice feature about **PHPFarm** is that we can run patch versions side by side.
 
 ## Installation and Configuration
 
@@ -106,9 +107,9 @@ $ ./compile.sh 5.5.11
 In order to confirm that everything was installed correctly let's verify each of the php versions we installed works:
 
 ````
-$ /opt/phpfarm/inst/php-5.3.1/bin/php -v 
-$ /opt/phpfarm/inst/php-5.4.27/bin/php -v 
-$ /opt/phpfarm/inst/php-5.5.11/bin/php -v 
+$ /opt/phpfarm/inst/php-5.3.1/bin/php -v
+$ /opt/phpfarm/inst/php-5.4.27/bin/php -v
+$ /opt/phpfarm/inst/php-5.5.11/bin/php -v
 ````
 
 After running each one of those commands you should see each version's full information, but is highly inconvenient if we have to type the full path to each of the php versions, right ? Well no worries PHPFarm actually has our back on this one, PHPFarm comes included with a command called with _**switch-phpfarm**_.
@@ -126,14 +127,14 @@ PHP 5.4.27 (cli) (built: Apr 18 2014 10:41:43) (DEBUG)
 Copyright (c) 1997-2014 The PHP Group
 Zend Engine v2.4.0, Copyright (c) 1998-2014 Zend Technologies
 
-```` 
+````
 
 It's as simple as that, **switch-phpfarm** takes care of creating the necessary symlinks need to run php; switching back to **PHP5.3** is as simple as too:
 
- 
+
 ````
 $ switch-phpfarm 5.3.1
-$ php -v 
+$ php -v
 PHP 5.3.1 (cli) (built: Feb  9 2014 16:11:15) (DEBUG)
 Copyright (c) 1997-2013 The PHP Group
 Zend Engine v2.3.0, Copyright (c) 1998-2013 Zend Technologies
@@ -155,7 +156,7 @@ For this article's example purposes we will use **mod_fastcgi** in order to run 
 
 ````
 $ a2enmod fastcgi actions suexec
-$ service apache2 restart   
+$ service apache2 restart
 ````
 
 Next we need to tell **Apache** where it can find the configuration for the multiple **fastcgi** servers, open the apache configuration file located in _/etc/apache2/apache2.conf_ and add the following lines at the end of it:
@@ -218,11 +219,11 @@ Now let's make sure our **Virtual Host** is loading the proper **PHP** correctly
 <?php phpinfo(); ?>
 ````
 
-With this setup we can install and use as many PHP version as we want, side by side and without any conflicts. 
+With this setup we can install and use as many PHP version as we want, side by side and without any conflicts.
 
 
 ## Final Comments
 
-Although this setup is tailored to my work flow, I'm sure that other developers will find useful or at the very least will give you ideas to improve your own development environment and work flow. 
+Although this setup is tailored to my work flow, I'm sure that other developers will find useful or at the very least will give you ideas to improve your own development environment and work flow.
 
-Also if you spot any errors, have any suggestions or want to share your own setup please feel free to leave a comment on the section below. 
+Also if you spot any errors, have any suggestions or want to share your own setup please feel free to leave a comment on the section below.

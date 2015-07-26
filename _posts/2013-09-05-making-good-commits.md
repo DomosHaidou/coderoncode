@@ -14,6 +14,7 @@ google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
 linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
+categories: github programming development
 ---
 
 One of the most underestimated skills that a developer can have is the ability to make well documented, clean commits.
@@ -26,7 +27,7 @@ Other developers can quickly see what changes you made and why, and is extremely
 ## A Skill that requires practice
 Choose a project, preferably one that you have been working for some time and has had least a few dozens commit. Now take a look at your commits and try to back track your work.
 Not pretty right? At least it wasn't for me; I had to take a hard look at my workflow and realize that I was approaching commit messages more than an annoyance that needed to be quickly bypassed instead using them as valuable tool for team and myself.
-	
+
 In order to help me make my commits consistent I setup the following 5 basic guidelines that my commit messages should try to implement:
 
 ### 1- Keep your commits clean
@@ -39,14 +40,14 @@ Commit as soon as you have one change ready, thing of your commits as brief snap
 
 By committing often we are creating a development history that we can use as reference and in the worst case scenario to roll back in case of a problem.
 
-### 3- One whole change per commit 
+### 3- One whole change per commit
 While I was already doing this with my regular commits I found that many new developers where packing multiple changes into a single commit, and writing messages like:
 
 > Fixes vulnerability #222
 > Changes css class
 > Rewrites controller  
 
-Having multiple changes all into a single commits makes a bug harder to track down and complicates the process of rolling back 
+Having multiple changes all into a single commits makes a bug harder to track down and complicates the process of rolling back
 
 ### 4- Specify why was the change made
 
@@ -61,10 +62,10 @@ Reason: The controller need be changed to implement x and y feature
 
 Ok so our original commit message looks better but something still missing from it, we are not specifying that we change exactly, saying:
 
-> Rewrites controller 
+> Rewrites controller
 
 It's not very specific a much better commit message would be:
 
-> Rewrites some/module/CheckoutController.php 
+> Rewrites some/module/CheckoutController.php
 
 This simple guidelines can save you of a lot of headaches down the road, and if another developer has to look back at the changes that where implemented on a project, he is able to quickly follow the history of the project.

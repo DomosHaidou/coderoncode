@@ -7,6 +7,7 @@ type: post
 keywords: hhvm, articles
 description:
 gradient: 		2
+categories: hhvm hacklang hack programming development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -16,9 +17,9 @@ google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
 linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
----	
+---
 
-HHVM is taking the PHP world by storm, and as PHP developer there many things to be excited about HHVM. 
+HHVM is taking the PHP world by storm, and as PHP developer there many things to be excited about HHVM.
 
 The following list shows how developers are using HHVM in the real world in very different scenarios.
 

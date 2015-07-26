@@ -7,6 +7,7 @@ type: post
 keywords: design pattern,php,programming,factory classes,coding
 description: "The factory pattern is a class that has some methods that create objects for you. Instead of using new directly, you use the factory class to create objects. That way, if you want to change the types of objects created, you can change just the factory. All the code that uses the factory changes automatically."
 gradient: 		2
+categories: design-patterns programming php coding development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -16,7 +17,7 @@ google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
 linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
---- 
+---
 
 The factory pattern is one of the most commonly used Design Patterns, it is useful when we need to choose between several interchangeable classes at runtime. By using factories we are also separating the creation of an object from the actual implementation.
 
@@ -30,7 +31,7 @@ There are __several implementations__ and variants of design pattern among of wh
 
 - Simple Factory
 - Abstract Factory
-- Factory Method 
+- Factory Method
 
 On this post we are going to focus on the **Factory method**, which is closer to the original Gang of four definitions and has more practical applications, as a side note the **Simple Factory** is normally not considered an actual pattern by many developers.
 
@@ -70,9 +71,9 @@ What's the biggest problem with this code? Simply put since our controller doesn
 
 Now you might be thinking that doesn't look so bad? It gets the job done, right? Well remember that it is our fictional **IkeaFactory** and we have hundreds of different product classes; meaning that if this was a fully implement class we would have hundreds of different cases on our switch statement.
 
-The previous example is not only messy but hard to maintain too, what would a happen if we suddenly added a new parameter to our **__construct()** function? You guessed right; that would mean updating every single instance where we call new on any of the product classes; that would mean a few hundred lines changed on our example controller function. 
+The previous example is not only messy but hard to maintain too, what would a happen if we suddenly added a new parameter to our **__construct()** function? You guessed right; that would mean updating every single instance where we call new on any of the product classes; that would mean a few hundred lines changed on our example controller function.
 
-Let's see how implementing a basic factory can help us write better and more maintainable code. First we need to create a new class called **ProductFactory** 
+Let's see how implementing a basic factory can help us write better and more maintainable code. First we need to create a new class called **ProductFactory**
 
 <script src="https://gist.github.com/amacgregor/8507938.js"></script>
 

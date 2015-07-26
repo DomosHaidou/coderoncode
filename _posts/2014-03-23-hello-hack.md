@@ -7,6 +7,7 @@ type: post
 keywords: php, hhvm, facebook, hack, hack programming, hack language
 description: "Recently Facebook unveiled **Hack**, a new programming language that aims to provide developers with the tools to write and ship code quickly while catching errors on the fly."
 gradient: 		2
+categories: php hhvm hack hacklang programming programming-languages
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -32,7 +33,7 @@ So does that mean that **Hack** is just a faster more efficient PHP implementati
 
 > Hack reconciles the fast development cycle of PHP with the discipline provided by static typing, while adding many features commonly found in other modern programming languages... [Facebook](https://code.facebook.com/posts/264544830379293/hack-a-new-proogramming-language-for-hhvm/)
 
-### Static typing 
+### Static typing
 
 In a **dynamically typed** language like php variables types and its values are both mutable, this means that a variable can start like a null then take a string value and finally change to an integer all inside the same _local scope_. While this is great for writing scripts and simple applications; as things start to scale the codebase will become harder and harder to maintain.
 

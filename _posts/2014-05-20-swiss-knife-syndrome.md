@@ -8,6 +8,7 @@ keywords: software design, programming
 description: "A tool with so many features and implements that ends up being completely useless, in my experience the same problem can apply to software; more often than not as developers we will try to include a feature or a piece of code"
 excerpt: More often than not, developers try to include a feature or piece of code just <b>because it is "cool"</b>; project managers will try to modify the scope in the middle of a project because "X" or "Y" feature will add more value; customers will request extra features or functionality because they read or heard they were "critical" to their business.
 gradient: 		2
+categories: programming coding software-development productivity
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -18,7 +19,7 @@ linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
 ---
-<!-- 
+<!--
   We need more chef knives and less swiss army knifes
   Good software is like a chef's knife sharp and with purpose
 -->
@@ -40,8 +41,8 @@ In my experience, the same problem can apply to software. More often than not, d
 
 This 'Swiss Army Knife Syndrome' can take many shapes: **scope creep, early optimization, and so on**. But the root of the problem is how we perceive and value software, work, and the value attached to it:
 
-<div style="font-size:60px; text-align:center">More Features<br/>=<br/> More Value</div> 
- 
+<div style="font-size:60px; text-align:center">More Features<br/>=<br/> More Value</div>
+
 In reality, and for most cases, **the opposite is true**. The more complex a piece of code or software gets, the less value it provides. A personal example that illustrates this concept was a simple, pivotal dashboard for Demac Media internal use.
 
 The original application was simple: we needed a way of (1) seeing all the tasks assigned to a particular team and (2) to filter them by the current week or two week sprint-basically, a task aggregator with basic filtering.
@@ -50,7 +51,7 @@ I coded the simple concept over the course of one weekend. Upon showing this to 
 
 <div style="font-size:50px; text-align:left">
  ... but it would be so much better if ...
-</div> 
+</div>
 
 
 And that's how **Swiss Army Knife Syndrome** begins: with a 'but'. The tool was shared with other teams. Before they even started using it, we had a list of half a dozen features that were 'needed' or would add more value to the application. Suddenly, we had a number of requests well beyond the initial scope of the application.
@@ -61,8 +62,8 @@ And that's how **Swiss Army Knife Syndrome** begins: with a 'but'. The tool was 
 <p style="text-align:center"><img style="display:inline-block" src="http://www.euro-knife.com/sub/euro-noze.sk/images/shop-active-images/kuchynske-noze-victorinox-kucharsky-noz-7.7403.20..jpg" width="750" alt="Largest swiss army knife in the world"></p>
 
 {% excerpt %}
-**Software needs to be as clean and as simple as it can practically be.** To follow the knife analogy, good code should be like a chef's knife. A chef's knife has a clear and defined set of uses. A professional chef will use the right kind of knife for the job. This is how we should think about our code. 
-{% endexcerpt %}	
+**Software needs to be as clean and as simple as it can practically be.** To follow the knife analogy, good code should be like a chef's knife. A chef's knife has a clear and defined set of uses. A professional chef will use the right kind of knife for the job. This is how we should think about our code.
+{% endexcerpt %}
 
 <div style="font-size:60px; text-align:center">
 Do one job and do it well.
@@ -79,6 +80,3 @@ No company, project manager, developer, or client is exempt from falling for thi
 **Special Thanks to:**
 
 Mark Holmes - [markholmes.io](http://markholmes.io/)
-
-
- 

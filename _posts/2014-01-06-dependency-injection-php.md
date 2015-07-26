@@ -6,6 +6,7 @@ type: post
 keywords: php, dependency injection, design pattern, programming
 description: "Dependency Injection is a software design pattern that allows avoiding hard-coding dependencies and makes possible to change the dependencies both at runtime and compile time."
 gradient: 		2
+categories: dependency-injection design-patterns programming php development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -78,7 +79,7 @@ As we can see, with Setter Injection the dependencies are provided to our class 
 
 - **Adding new dependencies is as easy** as adding a new setter method and it won't break any existing code.
 
-**Setter Injection** might be more suitable for situations where more flexibility is required. 
+**Setter Injection** might be more suitable for situations where more flexibility is required.
 
 
 ## So is Dependency Injection right for my application?
@@ -87,4 +88,4 @@ At the end of the day is up to each developer the one that has to make the decis
 
 But if you are working on large and long running project, then there is good chance that dependency injection might the right solution for your project.
 
-#### If you have any stories about using Dependency Injection in the real world and you would like to share please leave a comment down below. 
+#### If you have any stories about using Dependency Injection in the real world and you would like to share please leave a comment down below.

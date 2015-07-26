@@ -7,6 +7,7 @@ type: post
 keywords: hack, hacklang, microframework, hhvm, hacklang framework
 description: "So to get started I've decided to build a micro-framework using HACK and HHVM, building a simple microframework should be a challenging enough task to illustrate some of the more interesting features of the language and at the same time it has an achievable goal so we don't end on a never ending development cycle."
 gradient: 		2
+categories: hack hhvm programming hacklang coding
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.

@@ -7,6 +7,7 @@ type: post
 keywords: technical debt, development, best practices, devops
 description: "Technical Debt, chances are that you as developer have heard that term at least once before; but ask yourself do you really understand technical debt and when is appropriate to use it."
 gradient: 		2
+categories: technical-debt development devops programming
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -42,7 +43,7 @@ Purposely incurring into technical debt implies sacrificing quality and injectin
 
 If you've ever worked for an "Agile" development company or one that likes to work with extremely close deadlines; you know exactly what I mean with bend the rules.
 
-And one can even incur into technical debt without being aware of it, so the truth is that no matter what you are likely to incur into some technical debt. 
+And one can even incur into technical debt without being aware of it, so the truth is that no matter what you are likely to incur into some technical debt.
 
 ## Dealing with Technical Debt
 
@@ -55,7 +56,7 @@ The worst thing you can do with any kind of technical debt is ignored it, recogn
 
 <h2 class="red">Second rule of Dealing with Technical Debt: <strong>Set a repayment plan</strong></h2>
 
-As we mentioned before debt is something that we want to get rid of as soon as possible, the same applies for technical debt. 
+As we mentioned before debt is something that we want to get rid of as soon as possible, the same applies for technical debt.
 
 For Technical Debt we want to specify a deadline to completely repay our debt back, this way you set a deadline and only allow the technical debt go on for a predetermined amount of time.
 

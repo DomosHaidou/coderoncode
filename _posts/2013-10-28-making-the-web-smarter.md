@@ -6,6 +6,7 @@ type: post
 
 description: "We are essential using the same technology as it was invented 30 years ago, when the few websites where just black text and a white background. Sure, we have css5, html5, javascript, server side languages, etc."
 gradient: 		2
+categories: programming technology development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -16,8 +17,8 @@ linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
 ---
-	
-Welcome to the  information age where everything is connected, everything is in the cloud and where rivers of information flow directly to your screen. 
+
+Welcome to the  information age where everything is connected, everything is in the cloud and where rivers of information flow directly to your screen.
 If you ever felt like you where drowning in information you are not alone, we consume information -- or at least try to -- from dozens or even hundreds of different channels.
 
 
@@ -31,7 +32,7 @@ Currently the Web is dumb, and by dumb I don't mean useless nor I'm about to tel
 
 We are essential using the same technology as it was invented 30 years ago, when the few websites where just black text and a white background. Sure, we have css5, html5, javascript, server side languages, etc.
 
-All those techs are great for processing and displaying data but really don't help that much with data consumption. We still get a lot of noise and irrelevant content, let's say for example I visit nytimes.com 
+All those techs are great for processing and displaying data but really don't help that much with data consumption. We still get a lot of noise and irrelevant content, let's say for example I visit nytimes.com
 
 [insert nytimes.com screenshot]
 
@@ -40,7 +41,7 @@ As you can see the page is overflowing with information, excerpts, headlines and
 Sure I could go to a category and narrow the results even further, but that is exactly my point, we shouldn't have to do that the nytimes.com and the website in general should be smart enough to present a curated list of articles that match our tastes and preferences.
 
 Why are we forced to hunt for information, we spend hours everyday trying to find gold nuggets in mountains of digital noise. Our daily lives are overflown with information and it's only getting worse.
- 
+
 ## Moving towards the smart web
 
 There are many challenges that still need to be solved before we can have a truly smart web, privacy being one of the most complex ones, sharing data with third party sites it is always a concern.
@@ -48,5 +49,3 @@ There are many challenges that still need to be solved before we can have a trul
 However there are some really interesting approaches currently under development that provide interesting approaches to the problem of data management.
 
 One of my favourite ones is the open source project Huginn currently under development, the idea behind Huginn is to provide a framework for creating and managing intelligent agents that can help with our daily live tasks among them data consumption.
-
-
