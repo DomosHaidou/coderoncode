@@ -7,6 +7,7 @@ type: post
 keywords: magento, magento hhvm, magento performance
 description:
 gradient: 		2
+categories: magento programming hhvm performance development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -16,7 +17,7 @@ google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
 linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
----	
+---
 
 If you are developer or system administrator working with **Magento** running one or more medium sized stores, chances are that you are familiar with the many challenges of optimizing and scaling Magento.
 
@@ -36,16 +37,16 @@ And while all the optimizations help, in the end there is a major performance bo
 
 As large PHP like **Magento** try to scale, this performance price gets more noticeable and harder to solve, sure we can always throw more hardware, setup load balancing and fire up a reverse proxy cache; but that will only mask the issue.
 
-## HHVM 
+## HHVM
 
 Facebook, believe it or not; is runs on PHP and of course it had to deal with the same problems that we talked about before. To solve them Facebook took and interesting approach by creating **HHVM** (HipHop Virtual Machine).
 
 > **HHVM** (HipHop Virtual Machine) converts PHP code into a high-level bytecode (commonly
-> known as an intermediate language). This bytecode is then translated into x64 machine 
-> code dynamically at runtime by a just-in-time (JIT) compiler. In these respects, **HHVM** 
+> known as an intermediate language). This bytecode is then translated into x64 machine
+> code dynamically at runtime by a just-in-time (JIT) compiler. In these respects, **HHVM**
 > has similarities to virtual machines for other languages including C#/CLR and Java/JVM.
 
-According to Facebook, they have seen between 6x to 9x the improvement on the performance and speed of their servers, this is big news for any PHP application and not only **Magento**.Having Magento run on **HHVM** would drastically improve the speed and performance of the actual application without relying solely on caching. 
+According to Facebook, they have seen between 6x to 9x the improvement on the performance and speed of their servers, this is big news for any PHP application and not only **Magento**.Having Magento run on **HHVM** would drastically improve the speed and performance of the actual application without relying solely on caching.
 
 Currently, there are still many bugs on certain parts of the **HHVM** libraries that prevent **Magento** from fully running. However a lot of progress has been made recently to solve many of these issues; right now the main force behind all the bug fixes to get Magento and HHVM running is Daniel Sloof.
 
@@ -58,7 +59,7 @@ Daniel has been working for the last few months on **HHVM** and OSX compatibly, 
 As the time of this article publication, Magento can run on HHVM, but should still be approached with caution for production environments.
 
 
-## Getting Things Up And Running 
+## Getting Things Up And Running
 
 So you want to run **Magento** on top of **HHVM**? If that's the case you're in luck, let's walkthrough the process for setting up, installing and running Magento+HHVM.
 
@@ -86,7 +87,7 @@ Next we will need to configure and compile **HHVM**:
 
 <script src="https://gist.github.com/amacgregor/8898057.js"></script>
 
-## Testing HHVM 
+## Testing HHVM
 
 At this point we have a working hhvm binary that we can use to run php scripts, let's verify that our hhvm instance works by running, execute the following command:
 
@@ -127,9 +128,9 @@ As we can see in the example file, there are 4 main configuration nodes:
 <!-- Settings Breakdown section -->
 #### Server
 
-The server node contains configuration that is specifically used when hhvm runs in server mode (surprising I know!), among these settings we have options like port, listening ip, hostname, number of threads to spawn and so on. 
+The server node contains configuration that is specifically used when hhvm runs in server mode (surprising I know!), among these settings we have options like port, listening ip, hostname, number of threads to spawn and so on.
 
-The are 2 settings to which we should pay particular attention for our **Magento** installation, **SourceRoot** and **DefaultDocument**. 
+The are 2 settings to which we should pay particular attention for our **Magento** installation, **SourceRoot** and **DefaultDocument**.
 
 - **SourceRoot** allows us to specify the **Magento** root folder, this would be the equivalent of Apache __DocumentRoot__.
 - **DefaultDocument** allow us to set the index file to be used automatically, this would be the equivalent of Apache __DirectyIndex__.
@@ -224,8 +225,8 @@ Shortest transaction:       0.07
 
 <!--
 yeah but using inbuilt webserver is wrong because:
-1) it will be deprecated in the foreseeable future. 
-2) you can keep using all of your existing rewrites etc because you're just changing the cgi backend. 
+1) it will be deprecated in the foreseeable future.
+2) you can keep using all of your existing rewrites etc because you're just changing the cgi backend.
 3) static assets are served faster somethign like nginx.
 -->
 
@@ -238,4 +239,3 @@ While this article uses the hhvm built-in server, it is important to note that i
 - Static assests are served slightly faster by something like Apache or Nginx.
 
 However, for the scope of this article and learning purposes the built-in server is a good introduction to HHVM and the general setup and configuration, in a further article we will cover the production setup with **FastCGI**
-

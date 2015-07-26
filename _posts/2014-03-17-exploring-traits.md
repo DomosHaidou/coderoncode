@@ -7,6 +7,7 @@ type: post
 keywords: programming,traits,php5.4,using php traits,design patterns
 description: "Traits are a mechanism for code reuse in single inheritance languages such as PHP. A Trait is intended to reduce some limitations of single inheritance by enabling a developer to reuse sets of methods freely in several independent classes living in different class hierarchies. The semantics of the combination of Traits and classes is defined in a way which reduces complexity, and avoids the typical problems associated with multiple inheritance and Mixins."
 gradient: 		2
+categories: programming php design-patterns development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -17,7 +18,7 @@ linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
 ---
-	
+
 
 Among the new features and fixes that come with **PHP5.4** we have the addition of traits to the PHP language, PHP is a single inheritance language this means that classes and only inheriting from single parent class, in practice this complicates code organization and can lead to code duplicity.
 
@@ -43,7 +44,7 @@ Whoops at that point (if PHP actually had multiple inheritance) we would get an 
 
 This in essence is the problem with multiple inheritance, (un)fortunately PHP being a single inheritance language doesn't have this problem and with the PHP5.4 we can implement similar functionality to multiple inheritance model.
 
-## A Trait Traits 
+## A Trait Traits
 
 > Traits are a mechanism for code reuse in single inheritance languages such as PHP. A Trait is intended to reduce some limitations of single inheritance by enabling a developer to reuse sets of methods freely in several independent classes living in different class hierarchies [php.net](php.net/traits)
 
@@ -68,5 +69,3 @@ The best part about traits is that it makes sense from a structural point of vie
 ## Conclusion
 
 Traits are an incredible addition to the **PHP** language and we have only started to touch the surface, in future articles will go over some of the more advance usages and caveats of using Traits.
-
-

@@ -7,6 +7,7 @@ type: post
 keywords: php repl, php development, php tools, programming, debugging
 description:
 gradient: 		2
+categories: php development programming debugging
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.

@@ -7,7 +7,7 @@ type: post
 keywords: exocortex, information overload, microservices, technology, programming
 description: "I have always been fascinated with the technology concepts presented on Charles Stross book Accelerando, artificial cats, downloads of consciousness, nanotechnology, etc. but of all of them one got my particular attention; Manfred Marcx glasses."
 
-
+categories: technology futurism
 tag: article
 ---
 

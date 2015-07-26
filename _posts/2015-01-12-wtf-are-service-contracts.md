@@ -5,8 +5,9 @@ published: true
 type: post
 
 keywords: magento2, magento, service contracts, design patterns, programming
-description:
-
+description: "The Service layer allows modules to provide a well-defined public API and
+effectively hiding the business logic and preserving data integrity."
+categories: magento2 magento design patterns programming php
 gradient: 		2
 
 author: 		Allan MacGregor
@@ -17,9 +18,9 @@ google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
 linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
----	
+---
 
-Now that Magento2 beta has been officially released, you are probably wondering 
+Now that Magento2 beta has been officially released, you are probably wondering
 what the hell are **Service Contracts** and more importantly why the hell do you
 need them.
 
@@ -33,7 +34,7 @@ src="http://i.imgur.com/m7oagqw.jpg" width="100%" alt="Magento Service Contracts
 is people"></p>
 
 Yes, Service contracts are nothing more than a set of interfaces used to define
-the public api of a module. 
+the public api of a module.
 
 Now, is important to clarify that by API we are talking about the set of
 interfaces that a module provides to other modules to access their
@@ -123,4 +124,3 @@ of the application.
 
 I will cover the rest of the interface types once the Magento2 documentation is
 updated and there are more details on their specific responsibilities.
-

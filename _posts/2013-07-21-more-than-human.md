@@ -7,6 +7,7 @@ navigation: 	false
 
 excerpt: 		In the <b>last couple years</b>, we have seen the emergence of new and exciting technologies aimed towards closing the gap between man and machine
 gradient: 		2
+categories: futurism technology
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -22,8 +23,8 @@ In the last couple years, we have seen the emergence of new and exciting technol
 
 
 
->Transhumanism is an international intellectual and cultural movement supporting the use 
->of science and technology to improve the human condition... 
+>Transhumanism is an international intellectual and cultural movement supporting the use
+>of science and technology to improve the human condition...
 >
 >**en.wikipedia.org/wiki/Transhumanism**
 

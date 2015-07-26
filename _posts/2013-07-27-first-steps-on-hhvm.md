@@ -7,6 +7,7 @@ type: post
 keywords: hhvm,hiphop development,vagrant,facebook hhvm
 description: "Currently a few applications are fully supported like wordpress and drupal; more complex applications like Magento are still not 100% with HHVM due to bugs in the HHVM implementation."
 gradient:       2
+categories: programming development hhvm vagrant 
 
 author:         Allan MacGregor
 bio:            MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -22,10 +23,10 @@ On a previous post [Introduction to HHVM](http://coderoncode.com/2013/07/24/intr
 
 
 
- 
+
 The first thing that we need to in order to start developing with HHVM is to setup a proper environment, for this case we are going to use a Vagrant Box.
 
-## Skipping the Installation 
+## Skipping the Installation
 
 If you want to skip the whole setup you can download the configured vagrant box by doing the following:
 
@@ -41,7 +42,7 @@ If you want to skip the whole setup you can download the configured vagrant box 
 
     mkdir ~/dev/vagrant/
     cd ~/dev/vagrant/
-    vagrant init 
+    vagrant init
 
 This will create a vagrant configuration file, this file is used for setting the configuration and provisioning our new vagrant box. We also need to download and ISO image of the **Ubuntu 12.04** vagrant can do this with a single command.
 
@@ -75,14 +76,14 @@ We need to install some base tools before we can actually build HHVM:
     libc-client2007e-dev php5-mcrypt php5-imagick libgoogle-perftools-dev \
     libcloog-ppl0 libelf-dev libdwarf-dev libunwind7-dev subversion
 
-### Building HHVM 
+### Building HHVM
 Next, we need to get a copy of [HHVM GitHub repository](https://github.com/facebook/hiphop-php):
 
     mkdir ~/hhvm-dev/
     cd ~/hhvm-dev/
     git clone https://github.com/facebook/hiphop-php
 
-Before jumping ahead and compiling HHVM we need to setup some third-party libraries required to support some of the **PHP** language features: 
+Before jumping ahead and compiling HHVM we need to setup some third-party libraries required to support some of the **PHP** language features:
 
 #### libevent
 

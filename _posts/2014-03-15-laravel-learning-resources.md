@@ -7,6 +7,7 @@ type: post
 keywords: laravel, php, resources, programming, learning
 description:
 gradient: 		2
+categories: laravel php programming resources development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.

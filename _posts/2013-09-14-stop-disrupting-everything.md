@@ -7,6 +7,7 @@ type: post
 keywords: disrupt, startup, buzzwords
 description: The term disrupt is nothing more than the last on a long list of buzzwords that poison the start up scene.
 gradient: 		2
+categories: startups rant
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -25,12 +26,12 @@ If you have been hanging around in HackerNews for the last few months chances ar
 - Disrupting Mass Surveillance
 - Disruptive Innovation
 - Disrupt Sleep
-- Disrupt yourself 
+- Disrupt yourself
 
 
 
 and even
-- Indian Inventor Disrupts The Period Industry 
+- Indian Inventor Disrupts The Period Industry
 
 And the list goes on and on, **disrupt** is the new magical buzzword used by startups across the globe, and while I don't have a problem with the word disrupt or even the general use of buzzwords to describe concepts; I do have a problem with the inherited mentality that comes with the use of such _magical buzzwords_.
 
@@ -49,11 +50,8 @@ Let's put things into context and define what disrupt actually means and how is 
 
 Let that definition sink for a second, disrupt means break apart and interrupt; by that definition a majority of the articles, startups and new techs have been called disruptive are **NOT** actually disruptive.
 
-Not all innovation disruptive nor it should be, disruption -- at least on terms of tech -- means that a new technology comes to displace an existing one. 
+Not all innovation disruptive nor it should be, disruption -- at least on terms of tech -- means that a new technology comes to displace an existing one.
 
 With that said, technologies and startups can be disruptive but it's really difficult to assess a technology as disruptive until after they have actually had measurable impact on an industry.
 
 So please stop calling yourself or your startup disruptive unless you actually understand what you are saying and specially if your startup is on it's earlier stages or not even launched, otherwise you will only look foolish and subtract validity to your startup/idea/self.
-
-
-

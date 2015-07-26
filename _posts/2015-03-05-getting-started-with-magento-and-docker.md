@@ -6,7 +6,7 @@ type: post
 
 keywords: docker, magento, programming, development, devops
 description: "Setting up a Magento development Environment with docker"
-
+categories: docker magento programming devops
 gradient: 		2
 
 author: 		Allan MacGregor
@@ -18,21 +18,21 @@ linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
 ---
-	
-Docker has taken the DevOps community by storm and is rapidly changing the ecosystem towards distributed architectures, and in case you haven't heard about Docker here is the quick definition: 
 
-> Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. 
+Docker has taken the DevOps community by storm and is rapidly changing the ecosystem towards distributed architectures, and in case you haven't heard about Docker here is the quick definition:
+
+> Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.
 
 
 
 And while Docker brings amazing things to the table in terms of application architecture, scalability and so on, in this post we are going to use docker to streamline the development pipeline.
 
-## The Problem 
+## The Problem
 
 If you are reading this article, chances are that you work for a Magento Agency and likely your development flow looks something like this:
 
 - Developers work on local versions of the site and make frequent changes
-- Code is pushed to an staging environment for testing 
+- Code is pushed to an staging environment for testing
 - The staging site is tested, and code is reviewed
 - On Approval, the code is merged into a production branch and deployed to production
 
@@ -75,7 +75,7 @@ In your project base create a folder named docker and add the following file:
 
 > A Dockerfile is a text document that contains all the commands you would normally execute manually in order to build a Docker image. By calling docker build from your terminal, you can have Docker build your image step by step, executing the instructions successively.
 
-All we are doing above is setting up the vhost for our current project, speaking of which we will need to create said vhost file inside our docker/vhost folder, since we are copying it to our newly created image in the following line 
+All we are doing above is setting up the vhost for our current project, speaking of which we will need to create said vhost file inside our docker/vhost folder, since we are copying it to our newly created image in the following line
 
 
 ```
@@ -87,21 +87,21 @@ So let's go ahead and create the file
 **Filename:** config/vhosts/localhost.com.conf
 <script src="https://gist.github.com/amacgregor/1112523b865211e79240.js"></script>
 
-Wait, that's it? Yes, it's that simple; the example above is using one of the coolest Apache2.4 features, Macros. 
+Wait, that's it? Yes, it's that simple; the example above is using one of the coolest Apache2.4 features, Macros.
 
-The base image has a macro for each of the php versions and as you can see is the first thing we are telling our vhost file to use 
+The base image has a macro for each of the php versions and as you can see is the first thing we are telling our vhost file to use
 
 
 ```
 Use VHost-PHP5.4
-``` 
+```
 
 
 The values after that are variables to be used by our macro file, in this case:
 
-- $host 
-- $ip 
-- $port 
+- $host
+- $ip
+- $port
 - $dir
 
 And while right now we are not using all of them directly, it opens an interesting set of possibilities. We are now ready to build and run our project docker image, but wait what about the project files, well I'm getting to that actually let's go ahead and create a simple test file for our example:
@@ -149,7 +149,6 @@ All we are doing here is exposing the port 80 to our host machine port 80, pleas
 
 Finally, we can verify everything is working by loading localhost.com in our browser, if everything worked correctly we should see the PHP information page.
 
-## Feedback 
+## Feedback
 
 This is the first time I ever worked with docker. Feedback and hints on how to improve are more than welcome. And if you find this useful let me know.
-

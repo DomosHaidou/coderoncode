@@ -7,6 +7,7 @@ type: post
 keywords: magehackday, magento, hackathon, magento hackathon
 description: "This past weekend the Magento Community hosted the first Magento Online Hackathon, here is a quick recap of my experience."
 gradient: 		2
+categories: magento hackathon programming development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -16,17 +17,17 @@ google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
 linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
 rss: 			"http://feeds.feedburner.com/CoderOnCode"
 tag: article
----	
+---
 
 This past weekend the Magento Community hosted the first Magento Online Hackathon, here is a quick recap of my experience.
 
 
 
 
-## The Community 
+## The Community
 
 First and foremost a big shout out to the Magento Community, you guys are awesome. Very few other communities could and have organized themselves to run a Hackathon this size let alone an online one; It's truly amazing to see people from so many countries and in different timezones trying to work together.
- 
+
 If anything at all was achieved in this event was to show that what makes Magento so unique and successful it's community and the people in it.
 
 
@@ -56,7 +57,7 @@ In the end, I'm happy to say that the teams where more than capable of organizin
 
 The Magento community proved that it can be very productive, and with over 20 projects there was plenty of work to do; here are some of the projects that came up as result from the online hackathon:
 
-- [Prediction.io Integration](https://github.com/magento-hackathon/Implement-Module-for-prediction.io) 
+- [Prediction.io Integration](https://github.com/magento-hackathon/Implement-Module-for-prediction.io)
 - [Responsive Blank Theme](https://github.com/tim-bezhashvyly/rank)
 - [Extended Access Control List for Magento](https://github.com/magento-hackathon/Loewenstark_Acl)
 - [MageMonitoring](https://github.com/magento-hackathon/Hackathon_MageMonitoring)

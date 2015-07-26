@@ -7,12 +7,14 @@ type: post
 
 keywords: git, github, linux, tips, programming
 description: Useful collection of git tips and tricks
+categories: git github linux tips programming
+
 ---
-	
+
 Recently I've been collecting a large collection of git shortcuts, tips and tricks. The following
 commands have been tested on linux and some of them will required a recent version of git.
 
-I expect that many of you will find them useful as much as I do. So let's get started with some 
+I expect that many of you will find them useful as much as I do. So let's get started with some
 simple but helpful commands to search and review your git repository history.
 
 ## Show log for only a specific branch
@@ -24,7 +26,7 @@ a log of branches
 git log --first-parent {branch_name}
 ```
 
-## Show the log as a single line 
+## Show the log as a single line
 
 The following command will show the commit has and the first line of the commit comment.
 
@@ -58,5 +60,3 @@ And in the same way we can see all the branches that haven't yet been merged.
 ```
 git branch --no-merged
 ```
-
-

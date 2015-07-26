@@ -7,6 +7,7 @@ type: post
 keywords: productivity,programming,development,office
 description: "The Async Software Development Manifesto has been making the rounds on sites like HackerNews and /r/programming; and while I dont agree entirely with all that is proposed, some of the points made by the author made so much sense that I felt motivated to break them down and make some contributions of my own."
 gradient: 		2
+categories: productivity programming development
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
@@ -61,7 +62,7 @@ So in this case, I think the principle should be revised to:
 
 According to the ASDM **"meetings are very costly to your business"** due the time that they take away from developers and the cost of constant interruptions, several articles like [programmer interrupted](http://blog.ninlabs.com/2013/01/programmer-interrupted/), [why you shouldn't interrupt developers](http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer) and [the high cost of interruptions](http://www.infoq.com/news/2013/01/Interruptions) deal with the same concept; there is a cost that hidden when interrupting developers; so I agree with this part of the principle.
 
-However, meetings specially the quick kind like daily stand-ups still have place, meetings shouldn't be the last resort however meetings must be use smartly: 
+However, meetings specially the quick kind like daily stand-ups still have place, meetings shouldn't be the last resort however meetings must be use smartly:
 
 - Interruptions should be minimized.
 - Meetings should be meaninful and to the point.
@@ -74,11 +75,11 @@ The main point is to provide a quick checkpoint for the team, make sure everyone
 There is however a valuable point to be made about constant interruptions and their attached cost, I have found that the following measures are effective to minimize interruptions while still following the concept of **Async Software Development**:
 
 - Instead of walking over to another developer to ask a '5min' question, write an email. Writing an email forces you to think about the problem and what you have done to try solving it. This is basically 'Async Rubber Ducking' chances are that the asking developer already knows the answer to the problem, but is needs to change the way he is looking/thinking about the problem.
-- Define core hours, during core hours you should avoid interruptions (meetings, walking over, etc) the core hours should be a large chunk of interrupted time during the day. Define core hours will help developers to have a guaranteed and predefined period of time, that they can use to get complicated tasks done. 
+- Define core hours, during core hours you should avoid interruptions (meetings, walking over, etc) the core hours should be a large chunk of interrupted time during the day. Define core hours will help developers to have a guaranteed and predefined period of time, that they can use to get complicated tasks done.
 
 So in this case, I think the principle should be revised to:
 
-<div style="font-size:60px; text-align:center">Use meetings wisely</div> 
+<div style="font-size:60px; text-align:center">Use meetings wisely</div>
 
 
 ### Flexible work environments
@@ -91,13 +92,13 @@ Here the original ASDM goes into a few points of what does it mean to have a fle
 
 And while I wholeheartedly agree with all those points, I think we have to be careful of how much flexibility is allowed. Some developers will completely isolate themselves if allowed to; and writing code in isolation is never a good thing.
 
-<div style="font-size:60px; text-align:center">Be flexible with your process</div> 
+<div style="font-size:60px; text-align:center">Be flexible with your process</div>
 
-Be mindful about any process or policy, if the process gets in the way of actually getting work done then the process needs to change. 
+Be mindful about any process or policy, if the process gets in the way of actually getting work done then the process needs to change.
 
 ### Document everything
 
-The original manifesto doesn't go into much detail on this last point: 
+The original manifesto doesn't go into much detail on this last point:
 
 > The better documented your work-flow, the less your workers will need to interrupt each other to seek out tribal knowledge.
 

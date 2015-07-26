@@ -7,6 +7,7 @@ type: post
 keywords: hhvm, hack, php, hhvm/hack, php replacement
 description: "HHVM could change (is already at some extent) the way developers see and think about PHP performance, and how PHP should work. Even if you don't care and never plan to use HHVM or HACK in any of your projects the mere fact that they exist is a good thing for the PHP community."
 gradient: 		2
+categories: hhvm hack hacklang php programming
 
 author: 		Allan MacGregor
 bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
