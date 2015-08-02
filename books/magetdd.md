@@ -24,7 +24,7 @@ By buying the **early access** version, you will get the DRM free book in the fo
 {% endcontentfor %}
 
 {% contentfor preview %}
-<img src="/assets/book_images/TDDPortrait_large.png" />
+<img src="/assets/book_images/TDDPortrait.jpg" />
 {% endcontentfor %}
 
 {% contentfor itis %}
