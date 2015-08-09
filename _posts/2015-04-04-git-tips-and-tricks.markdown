@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Git Tips and Tricks"
-date: 2015-04-04T12:15:37-04:00
 published: true
 type: post
 
