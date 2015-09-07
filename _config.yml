@@ -20,6 +20,8 @@ collections:
   - books
   - projects
 
+gems:
+  - jekyll-sitemap
 
 name: 'Allan MacGregor'
 author: 'Allan MacGregor'
@@ -27,7 +29,7 @@ author_image: "https://en.gravatar.com/userimage/14757184/46569f43320e7cb0c27093
 
 paginate:	5
 
-url: "http://coderoncode.com/" # the base hostname & protocol for your site
+url: "http://coderoncode.com" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
