@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Generate the site in case it wasn't generated 
+jekyll build
+
+# Upload to server
+scp -r _site/* st1.am.com:/srv/www/coderoncode.com/public_html
+scp -r _site/* st2.am.com:/srv/www/coderoncode.com/public_html
