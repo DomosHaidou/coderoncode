@@ -32,6 +32,12 @@ paginate:	5
 url: "http://coderoncode.com" # the base hostname & protocol for your site
 baseurl: ""
 
+jekyll-crosspost_to_medium:
+  enabled: true
+  cache: .jekyll-crosspost_to_medium
+  status: public
+  license: all-rights-reserved
+
 # social icons and sharing options
 social:
   - icon:	twitter
