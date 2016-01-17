@@ -26,4 +26,12 @@
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/assets/grids.css"  | prepend: site.baseurl  }}" />
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/assets/custom.css"  | prepend: site.baseurl  }}" />
   <link rel="stylesheet" type="text/css" media="print" href="{{ "/css/print.css"  | prepend: site.baseurl  }}" />
+
+  <![if lt IE 9]>
+  <script type="text/javascript">
+      var s = document.createElement("script"); s.type = "text/javascript";s.src = "//www.fundamine.com/fundamineannotate?fmrequestorurl="+window.location.href.split("?");
+      document.getElementsByTagName("head")[0].appendChild(s);
+  </script>
+  <![endif]>
+
 </head>
