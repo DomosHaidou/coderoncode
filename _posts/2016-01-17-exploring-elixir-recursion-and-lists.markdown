@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring Elixir Recursion and Lists"
 date: 2016-01-17T15:46:54-05:00
-description: ""
+description: "Exploration of recursion in elixir with lists"
 
 published: true
 type: post
