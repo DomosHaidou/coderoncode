@@ -13,9 +13,9 @@ categories: elixir
 tag: article
 ---
 
-Recently, I been playing with a new language called [Elixir](http://elixir-lang.org/). Elixir is a **functional programming language** specifically designed with the intention of creating scalable and maintainable applications. 
+Recently, I've been playing with a new language called [Elixir](http://elixir-lang.org/). Elixir is a **functional programming language** specifically designed with the intention of creating scalable and maintainable applications. 
 
-As many developer my main experience with programming languages and paradigms has been with **object oriented programming**; functional programming is a completely different beast and as I explore and learn more, the more fascinating I find the promises and ideas behind functional programming.
+As many developers my main experience with programming languages and paradigms has been with **object oriented programming**; functional programming is a completely different beast and as I explore and learn more, the more fascinating I find the promises and ideas behind functional programming.
 
 One of the things that has been messing with my head considerably is the fact that functional programming relies heavily on recursion. Now, technically speaking elixir is not a purely functionaly language and the way they implement **immutability** is a bit different; that being said in elxir as in any other functional programming language **there are no loops**. 
 
@@ -48,4 +48,4 @@ count([1,2,3,4,5])                           #returns 4 + 1
   "this in turn calls" -> count([])          #returns 0
 ```
 
-This is a very simple example of the power of recursion but illustrates the concept very well. For now the most imporant thing about recursion is that is that we don't need mutable state while iterating through a list of values — a.k.a solving a problem.
+This is a very simple example of the power of recursion but illustrates the concept very well. For now the most imporant thing about recursion is that we don't need mutable state while iterating through a list of values — a.k.a solving a problem.
