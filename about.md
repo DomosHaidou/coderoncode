@@ -13,7 +13,7 @@ Since joining Demac, Allan has worked on numerous projects including Integration
 
 <div class="section group">
   <div class="col span_3_of_12">
-    <a href="http://www.amazon.com/dp/1782163069/?tag=coderoncode"><img src="http://magedevguide.com/images/3060os_cover.png?1364947366"></a>  
+    <a href="http://www.amazon.com/dp/1782163069/?tag=coderoncode"><img src="http://magedevguide.com/images/3060os_cover79b6.png?1393801869"></a>  
   </div>
   <div class="col span_3_of_12">
     <a href="http://coderoncode.com/books/magetdd.html"><img width="170" src="/assets/book_images/magetdd_title_v2.png"></a>

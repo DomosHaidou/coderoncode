@@ -16,7 +16,7 @@ permalink: /books/
 <hr/>
 <div class="section group">
   <div class="col span_3_of_12">
-    <a href="http://www.amazon.com/dp/1782163069/?tag=coderoncode"><img src="http://magedevguide.com/images/3060os_cover.png?1364947366"></a>
+    <a href="http://www.amazon.com/dp/1782163069/?tag=coderoncode"><img src="http://magedevguide.com/images/3060os_cover79b6.png?1393801869"></a>
   </div>
   <div class="col span_9_of_12">
     <h1><a href="https://www.packtpub.com/web-development/magento-php-developer%E2%80%99s-guide">Magento PHP Developer’s Guide</a></h1>
