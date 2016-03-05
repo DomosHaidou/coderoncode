@@ -6,7 +6,7 @@ type: post
 
 keywords:
 description: ""
-categories:
+categories: health
 tag: article
 ---
 

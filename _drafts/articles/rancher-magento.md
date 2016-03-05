@@ -1,1 +1,0 @@
-# Rancher and Magento

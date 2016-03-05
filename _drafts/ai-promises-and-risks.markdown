@@ -7,8 +7,8 @@ published: true
 type: post
 crosspost_to_medium: true
 
-keywords:
-categories:
+keywords: artificial intelligence, programming
+categories: artificial-intelligence
 tag: article
 ---
 
