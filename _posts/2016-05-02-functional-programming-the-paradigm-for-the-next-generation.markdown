@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Functional Programming: The Paradigm for the Next Generation"
+date: 2016-05-02T13:05:11-04:00
 description: ""
 
 published: true
