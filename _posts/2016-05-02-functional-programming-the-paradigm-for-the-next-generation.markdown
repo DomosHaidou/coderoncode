@@ -2,14 +2,14 @@
 layout: post
 title: "Functional Programming: The Paradigm for the Next Generation"
 date: 2016-05-02T13:05:11-04:00
-description: ""
+description: "Functional programming is often treated as the fad of hipster mustachioed programmers, and more often is dismissed without much consideration"
 
 published: true
 type: post
 crosspost_to_medium: true
 
-keywords:
-categories:
+keywords: functional programming, elixir, coding 
+categories: "functional programming"
 tag: article
 ---
 
