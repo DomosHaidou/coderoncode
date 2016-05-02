@@ -34,11 +34,11 @@ In this case I've selected two languages that I'm familiar with for the imperati
 
 Let's start with a simple example, iterating through an array, adding each of the values and returning the sum. Let's start with the solution in PHP:
 
-<iframe src='https://glot.io/snippets/ee2f163epo/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='300'></iframe>
+<iframe src='https://glot.io/snippets/ee2f163epo/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='450'></iframe>
 
 Simple enough, by using the foreach loop we iterate across every single item in the array added to the sum integer and return the total, when its done. Let's take a look at the **Elixir** equivalent:
 
-<iframe src='https://glot.io/snippets/ee2hjw0uer/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='300'></iframe>
+<iframe src='https://glot.io/snippets/ee2hjw0uer/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='450'></iframe>
 
 Now, your initial reaction might be something like ***What in Knuts name is that?!***, ***Why are there two declarations of the same function?!***. If this is your first time seeing any **Elixir** code the above snippet might look awfully confusing and hardly making any sense.
 
@@ -66,7 +66,7 @@ In elixir this technique is called pattern matching, and the code would read as 
 
 This technique is extremely common in elixir, handle each edge case in a separate function head. No need to worry about complicated control structures.
 
-Now, I could argue the resulting code is cleaner and I dare to say more elegant, but before making statements like that, let's make our little example more interesting, and change the array to the following values:
+Now, I could argue the resulting code is cleaner and I dare to say more elegant, but before making statements like that, let's make our example more interesting, and change the array to the following values:
 
 ```php
 $sumList = [5,'four',2,'ten','one',28,6,'five'];
@@ -74,8 +74,14 @@ $sumList = [5,'four',2,'ten','one',28,6,'five'];
 
 Perfect, so now our code has to check if the value is a string or an integer and then convert the string representation into an integer for addition. To make things a little easier we are going add another array with integer values so we don't have to worry about the conversion.
 
-<iframe src='https://glot.io/snippets/ee2f86mgj5/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='300'></iframe>
+<iframe src='https://glot.io/snippets/ee2f86mgj5/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='450'></iframe>
 
 Well that does the trick but the code is definitively getting more complex and is no longer that easy to follow; let's take the same problem and solve it using elixir:
 
-<iframe src='https://glot.io/snippets/ee37d6qn7u/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='300'></iframe>
+<iframe src='https://glot.io/snippets/ee37d6qn7u/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='100%' height='450'></iframe>
+
+In both cases the results are the same however, with elixir and pattern matching we get more compact code that doesn't rely on state, and instead used recursion with strong, well defined conditions. While the examples might not look overly complex and I'm sure they don't illustrate each language strongest features; they do serve the purpose of illustrating the difference in thinking methodologies and how each the paradigms approach a specific problem.
+
+## Conclusion
+
+In my opinion the benefits of functional programming are very real and valuable if only for the fact that introducing new paradigms to your problem solving toolbox can make you a better programmer; even if in the end you continue using an imperative language.
