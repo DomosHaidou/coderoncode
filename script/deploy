@@ -10,5 +10,7 @@ jekyll build --lsi
 # Upload to server
 #scp -r _site/* st1.am.com:/srv/www/coderoncode.com/public_html
 #scp -r _site/* st2.am.com:/srv/www/coderoncode.com/public_html
-rsync -rave ssh _site/* st1.am.com:/srv/www/coderoncode.com/public_html
-rsync -rave ssh _site/* st2.am.com:/srv/www/coderoncode.com/public_html
+#rsync -rave ssh _site/* st1.am.com:/srv/www/coderoncode.com/public_html
+#rsync -rave ssh _site/* st2.am.com:/srv/www/coderoncode.com/public_html
+rsync -rave ssh _site/* web1.static:/srv/www/coderoncode.com/public_html
+rsync -rave ssh _site/* web2.static:/srv/www/coderoncode.com/public_html
