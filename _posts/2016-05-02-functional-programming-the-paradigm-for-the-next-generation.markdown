@@ -6,7 +6,7 @@ description: ""
 
 published: true
 type: post
-crosspost_to_medium: false
+crosspost_to_medium: true
 
 keywords:
 categories:
