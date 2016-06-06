@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Machine Learning: A Simple Neural Network"
+date: 2016-06-06T08:31:46-04:00
 description: "A simple neural network implementation in python with numpy"
 
 published: true
