@@ -35,7 +35,7 @@ baseurl: ""
 jekyll-crosspost_to_medium:
   enabled: true
   cache: .jekyll-crosspost_to_medium
-  status: public
+  status: draft
   license: all-rights-reserved
 
 # social icons and sharing options
