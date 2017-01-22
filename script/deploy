@@ -13,4 +13,4 @@ jekyll build --lsi
 #rsync -rave ssh _site/* st1.am.com:/srv/www/coderoncode.com/public_html
 #rsync -rave ssh _site/* st2.am.com:/srv/www/coderoncode.com/public_html
 #rsync -rave ssh _site/* web1.static:/srv/www/coderoncode.com/public_html
-rsync -rave ssh _site/* web3.static:/srv/www/coderoncode.com/public_html
+rsync -rave ssh _site/* web1.coderoncode:/srv/www/coderoncode.com/public_html
