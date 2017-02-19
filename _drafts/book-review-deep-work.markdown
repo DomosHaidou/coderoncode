@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review: Deep Work
+title: "Book Review: Deep Work"
 description: "A software developer's perspective on Cal's Newport book Deep Work"
 
 published: true
