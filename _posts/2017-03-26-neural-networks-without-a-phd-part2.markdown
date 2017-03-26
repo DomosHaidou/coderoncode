@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Neural Networks Without a PhD: Components of a Neural Network"
-description: "A series focused on preseting Neural Networks and the related concepts in layman's terms, that is to say without specialized knowledge in math or machine learning."
+date: 2017-03-26T07:38:13-04:00
+description: "A series focused on presenting Neural Networks and the related concepts in layman's terms, that is to say without specialized knowledge in math or machine learning."
 
 published: true
 type: post
@@ -12,10 +13,10 @@ categories: machine-learning
 tag: article
 ---
 
-> Neural networks (also referred to as connectionist systems) are a computational approach, which is based on a large collection of neural units (AKA artificial neurons), loosely modeling the way a biological brain solves problems with large clusters of biological neurons connected by axons. 
+> Neural networks (also referred to as connectionist systems) are a computational approach, which is based on a large collection of neural units (AKA artificial neurons), loosely modelling the way a biological brain solves problems with large clusters of biological neurons connected by axons. 
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_neural_network)
 
-In essence **Neural networks** are digital representations of their biological counterparts, and while that sounds intimidating – unless you have a strong background in statistics or cognitive science – NN are not that complicated once you understand the invidual bulding blocks for a Neural Net. 
+In essence **Neural networks** are digital representations of their biological counterparts, and while that sounds intimidating – unless you have a strong background in statistics or cognitive science – NN are not that complicated once you understand the individual building blocks for a Neural Net. 
 
 For illustration purposes let's take a look at the simplest possible Neural Network, the **perceptron**:
 
@@ -23,7 +24,7 @@ For illustration purposes let's take a look at the simplest possible Neural Netw
 
 The perceptron is a computational model of a single neuron, and as we can see it consists of 3 basic neural nodes, each of the with a unique function:
 
-- **Inputs**: Also referred to as sensors are in charge of communicating with either software or hardware and passing signals(data) to the Neural network, for example data sources in the case of software or a webcam in the case of hardeware.
+- **Inputs**: Also referred to as sensors are in charge of communicating with either software or hardware and passing signals(data) to the Neural network, for example data sources in the case of software or a webcam in the case of hardware.
 - **Neurons**: A basic unit of computation, it takes input from other nodes(sensors) and computes and output.
 - **Output**: Also referred to as actuators, allow our NN to interact with its environment, outputs can be hardware or software, for example return a true or false value or activating a stepper motor.
 
@@ -37,7 +38,7 @@ The input and output layers are self-explanatory, but what is a **hidden layer**
 
 ## Hidden Layers 
 
-The hidden layer(s) is the collection of one or more layers of **artificial neurons** that are in charge of doing the computation, transforming the inputs into something the output layer can use. In order to understand what happens inside this hiddenn layer, we need to first understand the concept of emergence:
+The hidden layer(s) is the collection of one or more layers of **artificial neurons** that are in charge of doing the computation, transforming the inputs into something the output layer can use. In order to understand what happens inside this hidden layer, we need to first understand the concept of emergence:
 
 > In philosophy, systems theory, science, and art, emergence is a phenomenon whereby larger entities arise through interactions among smaller or simpler entities such that the larger entities exhibit properties the smaller/simpler entities do not exhibit. 
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Emergence)
@@ -48,10 +49,10 @@ If we want to break it down, we can then say that a Neural network takes one or 
 
 # How Neurons Make Decisions
 
-In order to understand how neurons compute the input values and in turn make decisions – aka return an ouput – we need to add two more elements to our neural network understanding.
+In order to understand how neurons compute the input values and in turn make decisions – aka return an output – we need to add two more elements to our neural network understanding.
 
-- **Connections**: The invidual connections between each node (inputs, neurons, outputs).
-- **Connection Weights**: Each individual weight represents the strenght of the connections between nodes. Another way of thinking about it is how much each 'neuron' cares about a particular input value. 
+- **Connections**: The individual connections between each node (inputs, neurons, outputs).
+- **Connection Weights**: Each individual weight represents the strength of the connections between nodes. Another way of thinking about it is how much each 'neuron' cares about a particular input value. 
 
 With those two new components let's review our original perceptron diagram:
 
