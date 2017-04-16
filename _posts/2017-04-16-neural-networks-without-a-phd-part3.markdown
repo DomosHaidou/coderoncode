@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Neural Networks Without a PhD: Topologies"
+date: 2017-04-16T15:25:04-04:00
 description: "A series focused on preseting Neural Networks and the related concepts in layman's terms, that is to say without specialized knowledge in math or machine learning."
 
 published: true
