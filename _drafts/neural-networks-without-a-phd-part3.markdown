@@ -46,10 +46,4 @@ One a approach to topology selection is to simply make it a trial and error proc
 
 ![Network types - Source: turingfinance.com](http://www.turingfinance.com/wp-content/uploads/2014/04/Recurrent-Neural-Network-Architectures.png)
 
-A bit overwellming ain't it? Fortunately, when it comes down to topology selection we can follow some basic rules that will help us to get started. Let's take a look at each layer:
-
-### Input Layer
-
-In the case of the Input layer we will always have a single layer arrangement for our input nodes, as for the number of nodes, that directly depends on the number of features in our dataset. 
-
-It's also important to note that the process of selecting which data is used as inputs for our neural network is called feature selection, 
+A Bit overwellming ain't it? 
