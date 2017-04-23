@@ -8,8 +8,8 @@ published: true
 type: post
 crosspost_to_medium: true
 
-keywords:
-categories:
+keywords: functiona programming, elixir, erlang, programming
+categories: functional-programming
 tag: article
 ---
 
