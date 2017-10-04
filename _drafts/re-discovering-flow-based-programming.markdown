@@ -58,5 +58,34 @@ And it was this search for more that I stumbled into Flow-Based Programming.
 
 My first introduction to FBP (Flow-Based Programming) was throuhg a library called [Flowex](), Flowex implements many of the ideas of FBP while taking advantage of Erlang BEAM processes. Let's take a closer look:
 
+<!-- Insert basic diagram for flowex -->
+
+The best analogy I have seen so far for Flow-Based Programming is thinking in terms of a assembly line in a factory, one in which we are moving data through this assembly line and each one of our function is doing something with that data in sequencial order. 
+
+The core idea behind FBP is highly powerful, since as developers we can keep our focus on two main tasks:
+
+- Architecting the Pipeline 
+- Building the components of said pipelines
+
+And since function use is just another link in the chain the overall complexity is greatly reduced, unlike larger more traditional applications. 
+
+<!-- Braindump 
+
+Flow-Based Programming is no Magic bullet and there are plenty of downfalls, however at this point I strongly believe that the benefits outweight any potential side effects.
+
+Over the years, I've picked up a lot of methodologies or tools with the goal of making my software better, more reliable and more efficient, from TDD to DDD, microservices and serverless; we are bombarded with new methodologies, tools or paradigms that promise to solve every problem and making everything better.
+
+Seasoned developers know better than anyone that this is far from true and that even the best tools can be twisted, misused and actually become detrimental — anyone that has worked with a developer that suffered from 'desing patternitis' has seen the results first hand. 
+
+So why bring back an old idea, why even bother with a concept that has been around for decades now; after all if FBP is so great it would be mainstream by know, right? We'll as many things in life is not that simple; and while FBP has been around for years there are reasons why it never took of. 
+
+Some of those reasons are technically sound some are more political in nature, in any case the fact that FBP is still around and being discussed 40 years after its inception should be indication enough that there might still be something to the idea. 
+
+As developers we constantly struggle with complexity while forgetting what our actual job is, and that is not writing code. As developers our actual job to solve problems, think about it you don't go to a contract ask if can build you a house and then they immediatly start laying the foundation and rising walls, without even seeing the plans; on the other hand how often our initial reaction as software developers is jumping immediatly to a code editor, downloading a framework and so on. 
+
+We don't think hard enough about the requirements, about the data, about how things are ought to work; we want to code. Now, don't get me wrong I completely understand why thats the case, I suffer from the same reaction, and who could blame us, coding is fun(yes for some people, codign is fun)  but we need to think more before press that first stroke. 
 
 
+
+
+-->
