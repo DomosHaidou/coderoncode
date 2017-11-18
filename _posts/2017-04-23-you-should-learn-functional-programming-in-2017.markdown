@@ -102,6 +102,17 @@ I won't go into further details because this post is not an introduction to lamb
 - Functional Programming was deemed too slow compared to imperative languages
 - Functional Programming is making a comeback. 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6937861309533018"
+     data-ad-slot="9206842858"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## Functional Programming Applications 
 
